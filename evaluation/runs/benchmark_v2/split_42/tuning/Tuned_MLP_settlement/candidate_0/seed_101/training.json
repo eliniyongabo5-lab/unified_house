@@ -1,0 +1,30 @@
+{
+  "seed": 101,
+  "spec": {
+    "shared": false,
+    "physics": false,
+    "gate": false,
+    "width": 16,
+    "dropout": 0.0,
+    "prior_weight": 0.25,
+    "lr": 0.001,
+    "weight_decay": 0.0001
+  },
+  "tasks": [
+    "settlement"
+  ],
+  "best_validation_loss": {
+    "aggregate": 0.019859416410326958,
+    "settlement": 0.019859416410326958
+  },
+  "best_epoch": {
+    "settlement": 286,
+    "aggregate": 286
+  },
+  "trained_epochs": 326,
+  "seconds": 0.220897207967937,
+  "parameters": 977,
+  "max_epochs": 400,
+  "patience": 40,
+  "min_delta": 0.0001
+}

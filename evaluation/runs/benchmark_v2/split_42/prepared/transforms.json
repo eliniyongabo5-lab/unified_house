@@ -1,0 +1,129 @@
+{
+  "slope": {
+    "columns": [
+      "unit_weight_kNm3",
+      "cohesion_kPa",
+      "friction_angle_deg",
+      "slope_angle_deg",
+      "slope_height_m",
+      "pore_pressure_ratio"
+    ],
+    "median": [
+      21.6,
+      24.0,
+      30.0,
+      36.31,
+      128.25,
+      0.25
+    ],
+    "mean": [
+      22.799958309859182,
+      29.280588732394364,
+      28.09523380281691,
+      36.332214084507044,
+      332.4205352112677,
+      0.2658985915492958
+    ],
+    "std": [
+      10.076187879894755,
+      29.12747763790198,
+      9.367955781278225,
+      9.715627634177784,
+      553.3698324618621,
+      0.09937580329087327
+    ],
+    "target_mean": 0.0,
+    "target_std": 1.0,
+    "n_train": 355,
+    "n_prior_train": 228,
+    "soil_type_vocab": [],
+    "prior": "simplified infinite-slope Mohr-Coulomb FoS",
+    "fos_logit_coefficient": 0.5732255003474969,
+    "fos_logit_intercept": 0.643032603681942
+  },
+  "rock": {
+    "columns": [
+      "rho_d_g_cm3",
+      "porosity_percent",
+      "Vp_km_s",
+      "Is50_MPa",
+      "E_source_units"
+    ],
+    "median": [
+      2.59,
+      2.65,
+      4.59066,
+      3.39,
+      10.79
+    ],
+    "mean": [
+      2.5152753180679306,
+      4.429607755406281,
+      4.4576719425801254,
+      3.9138773303505023,
+      12.695280540641898
+    ],
+    "std": [
+      0.29943340779947175,
+      6.372942200064833,
+      1.1019103566904678,
+      2.4590942713906023,
+      10.851618640342453
+    ],
+    "target_mean": 77.78062751677852,
+    "target_std": 53.40746092458636,
+    "n_train": 2682,
+    "n_prior_train": 1768,
+    "soil_type_vocab": [],
+    "prior": "train-median UCS/Is50 coefficient; empirical index estimate",
+    "point_load_coefficient": 16.872964795158737
+  },
+  "settlement": {
+    "columns": [
+      "Depth (m)",
+      "Moisture Content (%)",
+      "SPT N-value",
+      "Foundation Width B (m)",
+      "Applied Load q (kPa)",
+      "Elastic Modulus E (MPa)",
+      "Influence Factor Is"
+    ],
+    "median": [
+      4.895,
+      23.505,
+      19.0,
+      1.7349999999999999,
+      171.465,
+      45.225,
+      1.06
+    ],
+    "mean": [
+      5.083971428571428,
+      22.690514285714276,
+      22.51142857142857,
+      1.7458285714285724,
+      173.445,
+      55.282914285714284,
+      1.0637514285714293
+    ],
+    "std": [
+      2.674597208507311,
+      10.111238769300028,
+      11.930208270929525,
+      0.7018109426217813,
+      72.93313783674941,
+      41.15881829580314,
+      0.08216160685390912
+    ],
+    "target_mean": 9.154428571428571,
+    "target_std": 10.307023047516719,
+    "n_train": 350,
+    "n_prior_train": 350,
+    "soil_type_vocab": [
+      "Clay",
+      "Sand",
+      "Silt"
+    ],
+    "prior": "q*B*Is/E; q kPa, B m, E MPa, result mm"
+  }
+}

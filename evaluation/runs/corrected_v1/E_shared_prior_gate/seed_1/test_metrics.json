@@ -1,0 +1,65 @@
+{
+  "config": "E_shared_prior_gate",
+  "seed": 1,
+  "tasks": {
+    "slope": {
+      "n_test": 89,
+      "metrics": {
+        "accuracy": 0.651685393258427,
+        "balanced_accuracy": 0.598813209494324,
+        "f1": 0.7596899224806202,
+        "roc_auc": 0.6878224974200207
+      },
+      "mean_gate_weight_valid": 0.3111422061920166,
+      "diagnostics": {
+        "cohesion_kPa": {
+          "n": 71,
+          "violations": 42,
+          "rate": 0.5915492957746479
+        },
+        "friction_angle_deg": {
+          "n": 71,
+          "violations": 49,
+          "rate": 0.6901408450704225
+        }
+      }
+    },
+    "rock": {
+      "n_test": 608,
+      "metrics": {
+        "mae": 35.93715292105549,
+        "rmse": 52.77227196571798,
+        "r2": 0.4650861147731029
+      },
+      "mean_gate_weight_valid": 0.23521874845027924,
+      "diagnostics": {
+        "Is50_MPa": {
+          "n": 267,
+          "violations": 23,
+          "rate": 0.08614232209737828
+        }
+      }
+    },
+    "settlement": {
+      "n_test": 75,
+      "metrics": {
+        "mae": 0.6036205664316814,
+        "rmse": 0.8831185125046089,
+        "r2": 0.9926797526417857
+      },
+      "mean_gate_weight_valid": 0.8594423532485962,
+      "diagnostics": {
+        "Applied Load q (kPa)": {
+          "n": 75,
+          "violations": 0,
+          "rate": 0.0
+        },
+        "Elastic Modulus E (MPa)": {
+          "n": 75,
+          "violations": 0,
+          "rate": 0.0
+        }
+      }
+    }
+  }
+}

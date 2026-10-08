@@ -1,0 +1,36 @@
+{
+  "seed": 102,
+  "spec": {
+    "shared": true,
+    "physics": false,
+    "gate": false,
+    "width": 16,
+    "dropout": 0.0,
+    "prior_weight": 0.25,
+    "lr": 0.001,
+    "weight_decay": 0.0001
+  },
+  "tasks": [
+    "slope",
+    "rock",
+    "settlement"
+  ],
+  "best_validation_loss": {
+    "aggregate": 0.2359114419668913,
+    "slope": 0.4111158549785614,
+    "rock": 0.22956596314907074,
+    "settlement": 0.011987950652837753
+  },
+  "best_epoch": {
+    "slope": 271,
+    "rock": 159,
+    "settlement": 273,
+    "aggregate": 304
+  },
+  "trained_epochs": 344,
+  "seconds": 0.8072491660132073,
+  "parameters": 2195,
+  "max_epochs": 400,
+  "patience": 40,
+  "min_delta": 0.0001
+}

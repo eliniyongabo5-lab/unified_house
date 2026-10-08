@@ -1,0 +1,2430 @@
+{
+  "classical": [
+    {
+      "task": "slope",
+      "family": "dummy",
+      "params": {},
+      "val_score": 0.5,
+      "model_path": "/Users/ben/Documents/Projects/ML_Concurrent_Prediction_Slope_Rock_Foundation/unified_house/evaluation/runs/benchmark_v3/split_42/classical/slope/dummy.joblib",
+      "fit_seconds": 0.03991545794997364,
+      "model_params": {
+        "constant": null,
+        "random_state": null,
+        "strategy": "prior"
+      }
+    },
+    {
+      "task": "slope",
+      "family": "logistic_regression",
+      "params": {
+        "C": 0.01,
+        "class_weight": null
+      },
+      "val_score": 0.6668346774193548,
+      "model_path": "/Users/ben/Documents/Projects/ML_Concurrent_Prediction_Slope_Rock_Foundation/unified_house/evaluation/runs/benchmark_v3/split_42/classical/slope/logistic_regression.joblib",
+      "fit_seconds": 0.00285183300729841,
+      "model_params": {
+        "C": 0.01,
+        "class_weight": null,
+        "dual": false,
+        "fit_intercept": true,
+        "intercept_scaling": 1,
+        "l1_ratio": 0.0,
+        "max_iter": 3000,
+        "n_jobs": null,
+        "penalty": "deprecated",
+        "random_state": 42,
+        "solver": "lbfgs",
+        "tol": 0.0001,
+        "verbose": 0,
+        "warm_start": false
+      }
+    },
+    {
+      "task": "slope",
+      "family": "rbf_svc",
+      "params": {
+        "C": 10.0,
+        "gamma": 1.0,
+        "class_weight": "balanced"
+      },
+      "val_score": 0.8256048387096775,
+      "model_path": "/Users/ben/Documents/Projects/ML_Concurrent_Prediction_Slope_Rock_Foundation/unified_house/evaluation/runs/benchmark_v3/split_42/classical/slope/rbf_svc.joblib",
+      "fit_seconds": 0.012953208002727479,
+      "model_params": {
+        "C": 10.0,
+        "break_ties": false,
+        "cache_size": 200,
+        "class_weight": "balanced",
+        "coef0": 0.0,
+        "decision_function_shape": "ovr",
+        "degree": 3,
+        "gamma": 1.0,
+        "kernel": "rbf",
+        "max_iter": -1,
+        "probability": true,
+        "random_state": 42,
+        "shrinking": true,
+        "tol": 0.001,
+        "verbose": false
+      }
+    },
+    {
+      "task": "slope",
+      "family": "random_forest",
+      "params": {
+        "n_estimators": 200,
+        "max_depth": null,
+        "min_samples_leaf": 1,
+        "class_weight": "balanced"
+      },
+      "val_score": 0.889616935483871,
+      "model_path": "/Users/ben/Documents/Projects/ML_Concurrent_Prediction_Slope_Rock_Foundation/unified_house/evaluation/runs/benchmark_v3/split_42/classical/slope/random_forest.joblib",
+      "fit_seconds": 0.15988537500379607,
+      "model_params": {
+        "bootstrap": true,
+        "ccp_alpha": 0.0,
+        "class_weight": "balanced",
+        "criterion": "gini",
+        "max_depth": null,
+        "max_features": "sqrt",
+        "max_leaf_nodes": null,
+        "max_samples": null,
+        "min_impurity_decrease": 0.0,
+        "min_samples_leaf": 1,
+        "min_samples_split": 2,
+        "min_weight_fraction_leaf": 0.0,
+        "monotonic_cst": null,
+        "n_estimators": 200,
+        "n_jobs": 2,
+        "oob_score": false,
+        "random_state": 42,
+        "verbose": 0,
+        "warm_start": false
+      }
+    },
+    {
+      "task": "slope",
+      "family": "hist_gradient_boosting",
+      "params": {
+        "learning_rate": 0.1,
+        "max_leaf_nodes": 15,
+        "l2_regularization": 1.0,
+        "max_iter": 200,
+        "early_stopping": false
+      },
+      "val_score": 0.889616935483871,
+      "model_path": "/Users/ben/Documents/Projects/ML_Concurrent_Prediction_Slope_Rock_Foundation/unified_house/evaluation/runs/benchmark_v3/split_42/classical/slope/hist_gradient_boosting.joblib",
+      "fit_seconds": 0.18412650004029274,
+      "model_params": {
+        "categorical_features": "from_dtype",
+        "class_weight": null,
+        "early_stopping": false,
+        "interaction_cst": null,
+        "l2_regularization": 1.0,
+        "learning_rate": 0.1,
+        "loss": "log_loss",
+        "max_bins": 255,
+        "max_depth": null,
+        "max_features": 1.0,
+        "max_iter": 200,
+        "max_leaf_nodes": 15,
+        "min_samples_leaf": 20,
+        "monotonic_cst": null,
+        "n_iter_no_change": 10,
+        "random_state": 42,
+        "scoring": "loss",
+        "tol": 1e-07,
+        "validation_fraction": 0.1,
+        "verbose": 0,
+        "warm_start": false
+      }
+    },
+    {
+      "task": "rock",
+      "family": "dummy",
+      "params": {},
+      "val_score": 57.711157660306604,
+      "model_path": "/Users/ben/Documents/Projects/ML_Concurrent_Prediction_Slope_Rock_Foundation/unified_house/evaluation/runs/benchmark_v3/split_42/classical/rock/dummy.joblib",
+      "fit_seconds": 0.0018400420085527003,
+      "model_params": {
+        "constant": null,
+        "quantile": null,
+        "strategy": "mean"
+      }
+    },
+    {
+      "task": "rock",
+      "family": "ridge",
+      "params": {
+        "alpha": 100.0
+      },
+      "val_score": 44.19348530830277,
+      "model_path": "/Users/ben/Documents/Projects/ML_Concurrent_Prediction_Slope_Rock_Foundation/unified_house/evaluation/runs/benchmark_v3/split_42/classical/rock/ridge.joblib",
+      "fit_seconds": 0.001771792012732476,
+      "model_params": {
+        "alpha": 100.0,
+        "copy_X": true,
+        "fit_intercept": true,
+        "max_iter": null,
+        "positive": false,
+        "random_state": null,
+        "solver": "auto",
+        "tol": 0.0001
+      }
+    },
+    {
+      "task": "rock",
+      "family": "rbf_svr",
+      "params": {
+        "C": 1.0,
+        "gamma": 0.1,
+        "epsilon": 0.01,
+        "target_transform": "StandardScaler"
+      },
+      "val_score": 43.382420073973314,
+      "model_path": "/Users/ben/Documents/Projects/ML_Concurrent_Prediction_Slope_Rock_Foundation/unified_house/evaluation/runs/benchmark_v3/split_42/classical/rock/rbf_svr.joblib",
+      "fit_seconds": 0.18237345799570903,
+      "model_params": {
+        "check_inverse": true,
+        "func": null,
+        "inverse_func": null,
+        "regressor": "SVR(epsilon=0.01, gamma=0.1)",
+        "transformer": "StandardScaler()"
+      }
+    },
+    {
+      "task": "rock",
+      "family": "random_forest",
+      "params": {
+        "n_estimators": 200,
+        "max_depth": 8,
+        "min_samples_leaf": 1
+      },
+      "val_score": 47.05756309784819,
+      "model_path": "/Users/ben/Documents/Projects/ML_Concurrent_Prediction_Slope_Rock_Foundation/unified_house/evaluation/runs/benchmark_v3/split_42/classical/rock/random_forest.joblib",
+      "fit_seconds": 0.2925932920188643,
+      "model_params": {
+        "bootstrap": true,
+        "ccp_alpha": 0.0,
+        "criterion": "squared_error",
+        "max_depth": 8,
+        "max_features": 1.0,
+        "max_leaf_nodes": null,
+        "max_samples": null,
+        "min_impurity_decrease": 0.0,
+        "min_samples_leaf": 1,
+        "min_samples_split": 2,
+        "min_weight_fraction_leaf": 0.0,
+        "monotonic_cst": null,
+        "n_estimators": 200,
+        "n_jobs": 2,
+        "oob_score": false,
+        "random_state": 42,
+        "verbose": 0,
+        "warm_start": false
+      }
+    },
+    {
+      "task": "rock",
+      "family": "hist_gradient_boosting",
+      "params": {
+        "learning_rate": 0.05,
+        "max_leaf_nodes": 15,
+        "l2_regularization": 1.0,
+        "max_iter": 200,
+        "early_stopping": false
+      },
+      "val_score": 45.875387248480955,
+      "model_path": "/Users/ben/Documents/Projects/ML_Concurrent_Prediction_Slope_Rock_Foundation/unified_house/evaluation/runs/benchmark_v3/split_42/classical/rock/hist_gradient_boosting.joblib",
+      "fit_seconds": 0.21798808401217684,
+      "model_params": {
+        "categorical_features": "from_dtype",
+        "early_stopping": false,
+        "interaction_cst": null,
+        "l2_regularization": 1.0,
+        "learning_rate": 0.05,
+        "loss": "squared_error",
+        "max_bins": 255,
+        "max_depth": null,
+        "max_features": 1.0,
+        "max_iter": 200,
+        "max_leaf_nodes": 15,
+        "min_samples_leaf": 20,
+        "monotonic_cst": null,
+        "n_iter_no_change": 10,
+        "quantile": null,
+        "random_state": 42,
+        "scoring": "loss",
+        "tol": 1e-07,
+        "validation_fraction": 0.1,
+        "verbose": 0,
+        "warm_start": false
+      }
+    },
+    {
+      "task": "settlement",
+      "family": "dummy",
+      "params": {},
+      "val_score": 10.872479145721535,
+      "model_path": "/Users/ben/Documents/Projects/ML_Concurrent_Prediction_Slope_Rock_Foundation/unified_house/evaluation/runs/benchmark_v3/split_42/classical/settlement/dummy.joblib",
+      "fit_seconds": 0.002153583976905793,
+      "model_params": {
+        "constant": null,
+        "quantile": null,
+        "strategy": "mean"
+      }
+    },
+    {
+      "task": "settlement",
+      "family": "ridge",
+      "params": {
+        "alpha": 0.1
+      },
+      "val_score": 5.3592085712998685,
+      "model_path": "/Users/ben/Documents/Projects/ML_Concurrent_Prediction_Slope_Rock_Foundation/unified_house/evaluation/runs/benchmark_v3/split_42/classical/settlement/ridge.joblib",
+      "fit_seconds": 0.0018364590359851718,
+      "model_params": {
+        "alpha": 0.1,
+        "copy_X": true,
+        "fit_intercept": true,
+        "max_iter": null,
+        "positive": false,
+        "random_state": null,
+        "solver": "auto",
+        "tol": 0.0001
+      }
+    },
+    {
+      "task": "settlement",
+      "family": "rbf_svr",
+      "params": {
+        "C": 10.0,
+        "gamma": 0.1,
+        "epsilon": 0.01,
+        "target_transform": "StandardScaler"
+      },
+      "val_score": 2.620673283125248,
+      "model_path": "/Users/ben/Documents/Projects/ML_Concurrent_Prediction_Slope_Rock_Foundation/unified_house/evaluation/runs/benchmark_v3/split_42/classical/settlement/rbf_svr.joblib",
+      "fit_seconds": 0.02571991697186604,
+      "model_params": {
+        "check_inverse": true,
+        "func": null,
+        "inverse_func": null,
+        "regressor": "SVR(C=10.0, epsilon=0.01, gamma=0.1)",
+        "transformer": "StandardScaler()"
+      }
+    },
+    {
+      "task": "settlement",
+      "family": "random_forest",
+      "params": {
+        "n_estimators": 200,
+        "max_depth": 8,
+        "min_samples_leaf": 3
+      },
+      "val_score": 3.259284484647884,
+      "model_path": "/Users/ben/Documents/Projects/ML_Concurrent_Prediction_Slope_Rock_Foundation/unified_house/evaluation/runs/benchmark_v3/split_42/classical/settlement/random_forest.joblib",
+      "fit_seconds": 0.11648195795714855,
+      "model_params": {
+        "bootstrap": true,
+        "ccp_alpha": 0.0,
+        "criterion": "squared_error",
+        "max_depth": 8,
+        "max_features": 1.0,
+        "max_leaf_nodes": null,
+        "max_samples": null,
+        "min_impurity_decrease": 0.0,
+        "min_samples_leaf": 3,
+        "min_samples_split": 2,
+        "min_weight_fraction_leaf": 0.0,
+        "monotonic_cst": null,
+        "n_estimators": 200,
+        "n_jobs": 2,
+        "oob_score": false,
+        "random_state": 42,
+        "verbose": 0,
+        "warm_start": false
+      }
+    },
+    {
+      "task": "settlement",
+      "family": "hist_gradient_boosting",
+      "params": {
+        "learning_rate": 0.1,
+        "max_leaf_nodes": 15,
+        "l2_regularization": 1.0,
+        "max_iter": 200,
+        "early_stopping": false
+      },
+      "val_score": 2.584643777698878,
+      "model_path": "/Users/ben/Documents/Projects/ML_Concurrent_Prediction_Slope_Rock_Foundation/unified_house/evaluation/runs/benchmark_v3/split_42/classical/settlement/hist_gradient_boosting.joblib",
+      "fit_seconds": 0.21811833401443437,
+      "model_params": {
+        "categorical_features": "from_dtype",
+        "early_stopping": false,
+        "interaction_cst": null,
+        "l2_regularization": 1.0,
+        "learning_rate": 0.1,
+        "loss": "squared_error",
+        "max_bins": 255,
+        "max_depth": null,
+        "max_features": 1.0,
+        "max_iter": 200,
+        "max_leaf_nodes": 15,
+        "min_samples_leaf": 20,
+        "monotonic_cst": null,
+        "n_iter_no_change": 10,
+        "quantile": null,
+        "random_state": 42,
+        "scoring": "loss",
+        "tol": 1e-07,
+        "validation_fraction": 0.1,
+        "verbose": 0,
+        "warm_start": false
+      }
+    }
+  ],
+  "neural": [
+    {
+      "model": "A_independent",
+      "seed": 1,
+      "directory": "/Users/ben/Documents/Projects/ML_Concurrent_Prediction_Slope_Rock_Foundation/unified_house/evaluation/runs/benchmark_v3/split_42/neural/A_independent/seed_1",
+      "tasks": [
+        "slope",
+        "rock",
+        "settlement"
+      ],
+      "spec": {
+        "shared": false,
+        "physics": false,
+        "gate": false,
+        "width": 32,
+        "dropout": 0.0,
+        "prior_weight": 0.25,
+        "lr": 0.003,
+        "weight_decay": 0.0
+      },
+      "seconds": 0.9732415420003235
+    },
+    {
+      "model": "A_independent",
+      "seed": 2,
+      "directory": "/Users/ben/Documents/Projects/ML_Concurrent_Prediction_Slope_Rock_Foundation/unified_house/evaluation/runs/benchmark_v3/split_42/neural/A_independent/seed_2",
+      "tasks": [
+        "slope",
+        "rock",
+        "settlement"
+      ],
+      "spec": {
+        "shared": false,
+        "physics": false,
+        "gate": false,
+        "width": 32,
+        "dropout": 0.0,
+        "prior_weight": 0.25,
+        "lr": 0.003,
+        "weight_decay": 0.0
+      },
+      "seconds": 0.3503595829824917
+    },
+    {
+      "model": "A_independent",
+      "seed": 3,
+      "directory": "/Users/ben/Documents/Projects/ML_Concurrent_Prediction_Slope_Rock_Foundation/unified_house/evaluation/runs/benchmark_v3/split_42/neural/A_independent/seed_3",
+      "tasks": [
+        "slope",
+        "rock",
+        "settlement"
+      ],
+      "spec": {
+        "shared": false,
+        "physics": false,
+        "gate": false,
+        "width": 32,
+        "dropout": 0.0,
+        "prior_weight": 0.25,
+        "lr": 0.003,
+        "weight_decay": 0.0
+      },
+      "seconds": 0.2966216249624267
+    },
+    {
+      "model": "A_independent",
+      "seed": 4,
+      "directory": "/Users/ben/Documents/Projects/ML_Concurrent_Prediction_Slope_Rock_Foundation/unified_house/evaluation/runs/benchmark_v3/split_42/neural/A_independent/seed_4",
+      "tasks": [
+        "slope",
+        "rock",
+        "settlement"
+      ],
+      "spec": {
+        "shared": false,
+        "physics": false,
+        "gate": false,
+        "width": 32,
+        "dropout": 0.0,
+        "prior_weight": 0.25,
+        "lr": 0.003,
+        "weight_decay": 0.0
+      },
+      "seconds": 0.3003541249781847
+    },
+    {
+      "model": "A_independent",
+      "seed": 5,
+      "directory": "/Users/ben/Documents/Projects/ML_Concurrent_Prediction_Slope_Rock_Foundation/unified_house/evaluation/runs/benchmark_v3/split_42/neural/A_independent/seed_5",
+      "tasks": [
+        "slope",
+        "rock",
+        "settlement"
+      ],
+      "spec": {
+        "shared": false,
+        "physics": false,
+        "gate": false,
+        "width": 32,
+        "dropout": 0.0,
+        "prior_weight": 0.25,
+        "lr": 0.003,
+        "weight_decay": 0.0
+      },
+      "seconds": 0.28783933399245143
+    },
+    {
+      "model": "B_independent_prior",
+      "seed": 1,
+      "directory": "/Users/ben/Documents/Projects/ML_Concurrent_Prediction_Slope_Rock_Foundation/unified_house/evaluation/runs/benchmark_v3/split_42/neural/B_independent_prior/seed_1",
+      "tasks": [
+        "slope",
+        "rock",
+        "settlement"
+      ],
+      "spec": {
+        "shared": false,
+        "physics": true,
+        "gate": false,
+        "width": 32,
+        "dropout": 0.0,
+        "prior_weight": 0.25,
+        "lr": 0.003,
+        "weight_decay": 0.0
+      },
+      "seconds": 0.3143430420313962
+    },
+    {
+      "model": "B_independent_prior",
+      "seed": 2,
+      "directory": "/Users/ben/Documents/Projects/ML_Concurrent_Prediction_Slope_Rock_Foundation/unified_house/evaluation/runs/benchmark_v3/split_42/neural/B_independent_prior/seed_2",
+      "tasks": [
+        "slope",
+        "rock",
+        "settlement"
+      ],
+      "spec": {
+        "shared": false,
+        "physics": true,
+        "gate": false,
+        "width": 32,
+        "dropout": 0.0,
+        "prior_weight": 0.25,
+        "lr": 0.003,
+        "weight_decay": 0.0
+      },
+      "seconds": 0.2809037499828264
+    },
+    {
+      "model": "B_independent_prior",
+      "seed": 3,
+      "directory": "/Users/ben/Documents/Projects/ML_Concurrent_Prediction_Slope_Rock_Foundation/unified_house/evaluation/runs/benchmark_v3/split_42/neural/B_independent_prior/seed_3",
+      "tasks": [
+        "slope",
+        "rock",
+        "settlement"
+      ],
+      "spec": {
+        "shared": false,
+        "physics": true,
+        "gate": false,
+        "width": 32,
+        "dropout": 0.0,
+        "prior_weight": 0.25,
+        "lr": 0.003,
+        "weight_decay": 0.0
+      },
+      "seconds": 0.3176277499878779
+    },
+    {
+      "model": "B_independent_prior",
+      "seed": 4,
+      "directory": "/Users/ben/Documents/Projects/ML_Concurrent_Prediction_Slope_Rock_Foundation/unified_house/evaluation/runs/benchmark_v3/split_42/neural/B_independent_prior/seed_4",
+      "tasks": [
+        "slope",
+        "rock",
+        "settlement"
+      ],
+      "spec": {
+        "shared": false,
+        "physics": true,
+        "gate": false,
+        "width": 32,
+        "dropout": 0.0,
+        "prior_weight": 0.25,
+        "lr": 0.003,
+        "weight_decay": 0.0
+      },
+      "seconds": 0.4122525420389138
+    },
+    {
+      "model": "B_independent_prior",
+      "seed": 5,
+      "directory": "/Users/ben/Documents/Projects/ML_Concurrent_Prediction_Slope_Rock_Foundation/unified_house/evaluation/runs/benchmark_v3/split_42/neural/B_independent_prior/seed_5",
+      "tasks": [
+        "slope",
+        "rock",
+        "settlement"
+      ],
+      "spec": {
+        "shared": false,
+        "physics": true,
+        "gate": false,
+        "width": 32,
+        "dropout": 0.0,
+        "prior_weight": 0.25,
+        "lr": 0.003,
+        "weight_decay": 0.0
+      },
+      "seconds": 0.28799216699553654
+    },
+    {
+      "model": "C_shared",
+      "seed": 1,
+      "directory": "/Users/ben/Documents/Projects/ML_Concurrent_Prediction_Slope_Rock_Foundation/unified_house/evaluation/runs/benchmark_v3/split_42/neural/C_shared/seed_1",
+      "tasks": [
+        "slope",
+        "rock",
+        "settlement"
+      ],
+      "spec": {
+        "shared": true,
+        "physics": false,
+        "gate": false,
+        "width": 32,
+        "dropout": 0.0,
+        "prior_weight": 0.25,
+        "lr": 0.003,
+        "weight_decay": 0.0
+      },
+      "seconds": 0.33547162503236905
+    },
+    {
+      "model": "C_shared",
+      "seed": 2,
+      "directory": "/Users/ben/Documents/Projects/ML_Concurrent_Prediction_Slope_Rock_Foundation/unified_house/evaluation/runs/benchmark_v3/split_42/neural/C_shared/seed_2",
+      "tasks": [
+        "slope",
+        "rock",
+        "settlement"
+      ],
+      "spec": {
+        "shared": true,
+        "physics": false,
+        "gate": false,
+        "width": 32,
+        "dropout": 0.0,
+        "prior_weight": 0.25,
+        "lr": 0.003,
+        "weight_decay": 0.0
+      },
+      "seconds": 0.31751370802521706
+    },
+    {
+      "model": "C_shared",
+      "seed": 3,
+      "directory": "/Users/ben/Documents/Projects/ML_Concurrent_Prediction_Slope_Rock_Foundation/unified_house/evaluation/runs/benchmark_v3/split_42/neural/C_shared/seed_3",
+      "tasks": [
+        "slope",
+        "rock",
+        "settlement"
+      ],
+      "spec": {
+        "shared": true,
+        "physics": false,
+        "gate": false,
+        "width": 32,
+        "dropout": 0.0,
+        "prior_weight": 0.25,
+        "lr": 0.003,
+        "weight_decay": 0.0
+      },
+      "seconds": 0.30537616601213813
+    },
+    {
+      "model": "C_shared",
+      "seed": 4,
+      "directory": "/Users/ben/Documents/Projects/ML_Concurrent_Prediction_Slope_Rock_Foundation/unified_house/evaluation/runs/benchmark_v3/split_42/neural/C_shared/seed_4",
+      "tasks": [
+        "slope",
+        "rock",
+        "settlement"
+      ],
+      "spec": {
+        "shared": true,
+        "physics": false,
+        "gate": false,
+        "width": 32,
+        "dropout": 0.0,
+        "prior_weight": 0.25,
+        "lr": 0.003,
+        "weight_decay": 0.0
+      },
+      "seconds": 0.38708029204281047
+    },
+    {
+      "model": "C_shared",
+      "seed": 5,
+      "directory": "/Users/ben/Documents/Projects/ML_Concurrent_Prediction_Slope_Rock_Foundation/unified_house/evaluation/runs/benchmark_v3/split_42/neural/C_shared/seed_5",
+      "tasks": [
+        "slope",
+        "rock",
+        "settlement"
+      ],
+      "spec": {
+        "shared": true,
+        "physics": false,
+        "gate": false,
+        "width": 32,
+        "dropout": 0.0,
+        "prior_weight": 0.25,
+        "lr": 0.003,
+        "weight_decay": 0.0
+      },
+      "seconds": 0.2869570829789154
+    },
+    {
+      "model": "D_shared_prior",
+      "seed": 1,
+      "directory": "/Users/ben/Documents/Projects/ML_Concurrent_Prediction_Slope_Rock_Foundation/unified_house/evaluation/runs/benchmark_v3/split_42/neural/D_shared_prior/seed_1",
+      "tasks": [
+        "slope",
+        "rock",
+        "settlement"
+      ],
+      "spec": {
+        "shared": true,
+        "physics": true,
+        "gate": false,
+        "width": 32,
+        "dropout": 0.0,
+        "prior_weight": 0.25,
+        "lr": 0.003,
+        "weight_decay": 0.0
+      },
+      "seconds": 0.28015841700835153
+    },
+    {
+      "model": "D_shared_prior",
+      "seed": 2,
+      "directory": "/Users/ben/Documents/Projects/ML_Concurrent_Prediction_Slope_Rock_Foundation/unified_house/evaluation/runs/benchmark_v3/split_42/neural/D_shared_prior/seed_2",
+      "tasks": [
+        "slope",
+        "rock",
+        "settlement"
+      ],
+      "spec": {
+        "shared": true,
+        "physics": true,
+        "gate": false,
+        "width": 32,
+        "dropout": 0.0,
+        "prior_weight": 0.25,
+        "lr": 0.003,
+        "weight_decay": 0.0
+      },
+      "seconds": 0.30935145798139274
+    },
+    {
+      "model": "D_shared_prior",
+      "seed": 3,
+      "directory": "/Users/ben/Documents/Projects/ML_Concurrent_Prediction_Slope_Rock_Foundation/unified_house/evaluation/runs/benchmark_v3/split_42/neural/D_shared_prior/seed_3",
+      "tasks": [
+        "slope",
+        "rock",
+        "settlement"
+      ],
+      "spec": {
+        "shared": true,
+        "physics": true,
+        "gate": false,
+        "width": 32,
+        "dropout": 0.0,
+        "prior_weight": 0.25,
+        "lr": 0.003,
+        "weight_decay": 0.0
+      },
+      "seconds": 0.23275858402485028
+    },
+    {
+      "model": "D_shared_prior",
+      "seed": 4,
+      "directory": "/Users/ben/Documents/Projects/ML_Concurrent_Prediction_Slope_Rock_Foundation/unified_house/evaluation/runs/benchmark_v3/split_42/neural/D_shared_prior/seed_4",
+      "tasks": [
+        "slope",
+        "rock",
+        "settlement"
+      ],
+      "spec": {
+        "shared": true,
+        "physics": true,
+        "gate": false,
+        "width": 32,
+        "dropout": 0.0,
+        "prior_weight": 0.25,
+        "lr": 0.003,
+        "weight_decay": 0.0
+      },
+      "seconds": 0.3149994579725899
+    },
+    {
+      "model": "D_shared_prior",
+      "seed": 5,
+      "directory": "/Users/ben/Documents/Projects/ML_Concurrent_Prediction_Slope_Rock_Foundation/unified_house/evaluation/runs/benchmark_v3/split_42/neural/D_shared_prior/seed_5",
+      "tasks": [
+        "slope",
+        "rock",
+        "settlement"
+      ],
+      "spec": {
+        "shared": true,
+        "physics": true,
+        "gate": false,
+        "width": 32,
+        "dropout": 0.0,
+        "prior_weight": 0.25,
+        "lr": 0.003,
+        "weight_decay": 0.0
+      },
+      "seconds": 0.27256720897275954
+    },
+    {
+      "model": "E_shared_prior_gate",
+      "seed": 1,
+      "directory": "/Users/ben/Documents/Projects/ML_Concurrent_Prediction_Slope_Rock_Foundation/unified_house/evaluation/runs/benchmark_v3/split_42/neural/E_shared_prior_gate/seed_1",
+      "tasks": [
+        "slope",
+        "rock",
+        "settlement"
+      ],
+      "spec": {
+        "shared": true,
+        "physics": true,
+        "gate": true,
+        "width": 32,
+        "dropout": 0.0,
+        "prior_weight": 0.25,
+        "lr": 0.003,
+        "weight_decay": 0.0
+      },
+      "seconds": 0.5723997919703834
+    },
+    {
+      "model": "E_shared_prior_gate",
+      "seed": 2,
+      "directory": "/Users/ben/Documents/Projects/ML_Concurrent_Prediction_Slope_Rock_Foundation/unified_house/evaluation/runs/benchmark_v3/split_42/neural/E_shared_prior_gate/seed_2",
+      "tasks": [
+        "slope",
+        "rock",
+        "settlement"
+      ],
+      "spec": {
+        "shared": true,
+        "physics": true,
+        "gate": true,
+        "width": 32,
+        "dropout": 0.0,
+        "prior_weight": 0.25,
+        "lr": 0.003,
+        "weight_decay": 0.0
+      },
+      "seconds": 0.3901640829863027
+    },
+    {
+      "model": "E_shared_prior_gate",
+      "seed": 3,
+      "directory": "/Users/ben/Documents/Projects/ML_Concurrent_Prediction_Slope_Rock_Foundation/unified_house/evaluation/runs/benchmark_v3/split_42/neural/E_shared_prior_gate/seed_3",
+      "tasks": [
+        "slope",
+        "rock",
+        "settlement"
+      ],
+      "spec": {
+        "shared": true,
+        "physics": true,
+        "gate": true,
+        "width": 32,
+        "dropout": 0.0,
+        "prior_weight": 0.25,
+        "lr": 0.003,
+        "weight_decay": 0.0
+      },
+      "seconds": 0.3967270830180496
+    },
+    {
+      "model": "E_shared_prior_gate",
+      "seed": 4,
+      "directory": "/Users/ben/Documents/Projects/ML_Concurrent_Prediction_Slope_Rock_Foundation/unified_house/evaluation/runs/benchmark_v3/split_42/neural/E_shared_prior_gate/seed_4",
+      "tasks": [
+        "slope",
+        "rock",
+        "settlement"
+      ],
+      "spec": {
+        "shared": true,
+        "physics": true,
+        "gate": true,
+        "width": 32,
+        "dropout": 0.0,
+        "prior_weight": 0.25,
+        "lr": 0.003,
+        "weight_decay": 0.0
+      },
+      "seconds": 0.4440763750462793
+    },
+    {
+      "model": "E_shared_prior_gate",
+      "seed": 5,
+      "directory": "/Users/ben/Documents/Projects/ML_Concurrent_Prediction_Slope_Rock_Foundation/unified_house/evaluation/runs/benchmark_v3/split_42/neural/E_shared_prior_gate/seed_5",
+      "tasks": [
+        "slope",
+        "rock",
+        "settlement"
+      ],
+      "spec": {
+        "shared": true,
+        "physics": true,
+        "gate": true,
+        "width": 32,
+        "dropout": 0.0,
+        "prior_weight": 0.25,
+        "lr": 0.003,
+        "weight_decay": 0.0
+      },
+      "seconds": 0.5573666669661179
+    },
+    {
+      "model": "F_independent_prior_gate",
+      "seed": 1,
+      "directory": "/Users/ben/Documents/Projects/ML_Concurrent_Prediction_Slope_Rock_Foundation/unified_house/evaluation/runs/benchmark_v3/split_42/neural/F_independent_prior_gate/seed_1",
+      "tasks": [
+        "slope",
+        "rock",
+        "settlement"
+      ],
+      "spec": {
+        "shared": false,
+        "physics": true,
+        "gate": true,
+        "width": 32,
+        "dropout": 0.0,
+        "prior_weight": 0.25,
+        "lr": 0.003,
+        "weight_decay": 0.0
+      },
+      "seconds": 0.3790332499775104
+    },
+    {
+      "model": "F_independent_prior_gate",
+      "seed": 2,
+      "directory": "/Users/ben/Documents/Projects/ML_Concurrent_Prediction_Slope_Rock_Foundation/unified_house/evaluation/runs/benchmark_v3/split_42/neural/F_independent_prior_gate/seed_2",
+      "tasks": [
+        "slope",
+        "rock",
+        "settlement"
+      ],
+      "spec": {
+        "shared": false,
+        "physics": true,
+        "gate": true,
+        "width": 32,
+        "dropout": 0.0,
+        "prior_weight": 0.25,
+        "lr": 0.003,
+        "weight_decay": 0.0
+      },
+      "seconds": 0.5821845420286991
+    },
+    {
+      "model": "F_independent_prior_gate",
+      "seed": 3,
+      "directory": "/Users/ben/Documents/Projects/ML_Concurrent_Prediction_Slope_Rock_Foundation/unified_house/evaluation/runs/benchmark_v3/split_42/neural/F_independent_prior_gate/seed_3",
+      "tasks": [
+        "slope",
+        "rock",
+        "settlement"
+      ],
+      "spec": {
+        "shared": false,
+        "physics": true,
+        "gate": true,
+        "width": 32,
+        "dropout": 0.0,
+        "prior_weight": 0.25,
+        "lr": 0.003,
+        "weight_decay": 0.0
+      },
+      "seconds": 0.42699162499047816
+    },
+    {
+      "model": "F_independent_prior_gate",
+      "seed": 4,
+      "directory": "/Users/ben/Documents/Projects/ML_Concurrent_Prediction_Slope_Rock_Foundation/unified_house/evaluation/runs/benchmark_v3/split_42/neural/F_independent_prior_gate/seed_4",
+      "tasks": [
+        "slope",
+        "rock",
+        "settlement"
+      ],
+      "spec": {
+        "shared": false,
+        "physics": true,
+        "gate": true,
+        "width": 32,
+        "dropout": 0.0,
+        "prior_weight": 0.25,
+        "lr": 0.003,
+        "weight_decay": 0.0
+      },
+      "seconds": 0.6652496249880642
+    },
+    {
+      "model": "F_independent_prior_gate",
+      "seed": 5,
+      "directory": "/Users/ben/Documents/Projects/ML_Concurrent_Prediction_Slope_Rock_Foundation/unified_house/evaluation/runs/benchmark_v3/split_42/neural/F_independent_prior_gate/seed_5",
+      "tasks": [
+        "slope",
+        "rock",
+        "settlement"
+      ],
+      "spec": {
+        "shared": false,
+        "physics": true,
+        "gate": true,
+        "width": 32,
+        "dropout": 0.0,
+        "prior_weight": 0.25,
+        "lr": 0.003,
+        "weight_decay": 0.0
+      },
+      "seconds": 0.46514241595286876
+    },
+    {
+      "model": "Tuned_MLP_slope",
+      "seed": 1,
+      "directory": "/Users/ben/Documents/Projects/ML_Concurrent_Prediction_Slope_Rock_Foundation/unified_house/evaluation/runs/benchmark_v3/split_42/neural/Tuned_MLP_slope/seed_1",
+      "tasks": [
+        "slope"
+      ],
+      "spec": {
+        "shared": false,
+        "physics": false,
+        "gate": false,
+        "width": 64,
+        "dropout": 0.1,
+        "prior_weight": 0.25,
+        "lr": 0.003,
+        "weight_decay": 0.001
+      },
+      "seconds": 0.09641462500439957
+    },
+    {
+      "model": "Tuned_MLP_slope",
+      "seed": 2,
+      "directory": "/Users/ben/Documents/Projects/ML_Concurrent_Prediction_Slope_Rock_Foundation/unified_house/evaluation/runs/benchmark_v3/split_42/neural/Tuned_MLP_slope/seed_2",
+      "tasks": [
+        "slope"
+      ],
+      "spec": {
+        "shared": false,
+        "physics": false,
+        "gate": false,
+        "width": 64,
+        "dropout": 0.1,
+        "prior_weight": 0.25,
+        "lr": 0.003,
+        "weight_decay": 0.001
+      },
+      "seconds": 0.09087404102319852
+    },
+    {
+      "model": "Tuned_MLP_slope",
+      "seed": 3,
+      "directory": "/Users/ben/Documents/Projects/ML_Concurrent_Prediction_Slope_Rock_Foundation/unified_house/evaluation/runs/benchmark_v3/split_42/neural/Tuned_MLP_slope/seed_3",
+      "tasks": [
+        "slope"
+      ],
+      "spec": {
+        "shared": false,
+        "physics": false,
+        "gate": false,
+        "width": 64,
+        "dropout": 0.1,
+        "prior_weight": 0.25,
+        "lr": 0.003,
+        "weight_decay": 0.001
+      },
+      "seconds": 0.09195866697700694
+    },
+    {
+      "model": "Tuned_MLP_slope",
+      "seed": 4,
+      "directory": "/Users/ben/Documents/Projects/ML_Concurrent_Prediction_Slope_Rock_Foundation/unified_house/evaluation/runs/benchmark_v3/split_42/neural/Tuned_MLP_slope/seed_4",
+      "tasks": [
+        "slope"
+      ],
+      "spec": {
+        "shared": false,
+        "physics": false,
+        "gate": false,
+        "width": 64,
+        "dropout": 0.1,
+        "prior_weight": 0.25,
+        "lr": 0.003,
+        "weight_decay": 0.001
+      },
+      "seconds": 0.08365895895985886
+    },
+    {
+      "model": "Tuned_MLP_slope",
+      "seed": 5,
+      "directory": "/Users/ben/Documents/Projects/ML_Concurrent_Prediction_Slope_Rock_Foundation/unified_house/evaluation/runs/benchmark_v3/split_42/neural/Tuned_MLP_slope/seed_5",
+      "tasks": [
+        "slope"
+      ],
+      "spec": {
+        "shared": false,
+        "physics": false,
+        "gate": false,
+        "width": 64,
+        "dropout": 0.1,
+        "prior_weight": 0.25,
+        "lr": 0.003,
+        "weight_decay": 0.001
+      },
+      "seconds": 0.09541608399013057
+    },
+    {
+      "model": "Tuned_MLP_rock",
+      "seed": 1,
+      "directory": "/Users/ben/Documents/Projects/ML_Concurrent_Prediction_Slope_Rock_Foundation/unified_house/evaluation/runs/benchmark_v3/split_42/neural/Tuned_MLP_rock/seed_1",
+      "tasks": [
+        "rock"
+      ],
+      "spec": {
+        "shared": false,
+        "physics": false,
+        "gate": false,
+        "width": 64,
+        "dropout": 0.1,
+        "prior_weight": 0.25,
+        "lr": 0.003,
+        "weight_decay": 0.001
+      },
+      "seconds": 0.11292075004894286
+    },
+    {
+      "model": "Tuned_MLP_rock",
+      "seed": 2,
+      "directory": "/Users/ben/Documents/Projects/ML_Concurrent_Prediction_Slope_Rock_Foundation/unified_house/evaluation/runs/benchmark_v3/split_42/neural/Tuned_MLP_rock/seed_2",
+      "tasks": [
+        "rock"
+      ],
+      "spec": {
+        "shared": false,
+        "physics": false,
+        "gate": false,
+        "width": 64,
+        "dropout": 0.1,
+        "prior_weight": 0.25,
+        "lr": 0.003,
+        "weight_decay": 0.001
+      },
+      "seconds": 0.09428879199549556
+    },
+    {
+      "model": "Tuned_MLP_rock",
+      "seed": 3,
+      "directory": "/Users/ben/Documents/Projects/ML_Concurrent_Prediction_Slope_Rock_Foundation/unified_house/evaluation/runs/benchmark_v3/split_42/neural/Tuned_MLP_rock/seed_3",
+      "tasks": [
+        "rock"
+      ],
+      "spec": {
+        "shared": false,
+        "physics": false,
+        "gate": false,
+        "width": 64,
+        "dropout": 0.1,
+        "prior_weight": 0.25,
+        "lr": 0.003,
+        "weight_decay": 0.001
+      },
+      "seconds": 0.13277641701279208
+    },
+    {
+      "model": "Tuned_MLP_rock",
+      "seed": 4,
+      "directory": "/Users/ben/Documents/Projects/ML_Concurrent_Prediction_Slope_Rock_Foundation/unified_house/evaluation/runs/benchmark_v3/split_42/neural/Tuned_MLP_rock/seed_4",
+      "tasks": [
+        "rock"
+      ],
+      "spec": {
+        "shared": false,
+        "physics": false,
+        "gate": false,
+        "width": 64,
+        "dropout": 0.1,
+        "prior_weight": 0.25,
+        "lr": 0.003,
+        "weight_decay": 0.001
+      },
+      "seconds": 0.1369824159773998
+    },
+    {
+      "model": "Tuned_MLP_rock",
+      "seed": 5,
+      "directory": "/Users/ben/Documents/Projects/ML_Concurrent_Prediction_Slope_Rock_Foundation/unified_house/evaluation/runs/benchmark_v3/split_42/neural/Tuned_MLP_rock/seed_5",
+      "tasks": [
+        "rock"
+      ],
+      "spec": {
+        "shared": false,
+        "physics": false,
+        "gate": false,
+        "width": 64,
+        "dropout": 0.1,
+        "prior_weight": 0.25,
+        "lr": 0.003,
+        "weight_decay": 0.001
+      },
+      "seconds": 0.08999904105439782
+    },
+    {
+      "model": "Tuned_MLP_settlement",
+      "seed": 1,
+      "directory": "/Users/ben/Documents/Projects/ML_Concurrent_Prediction_Slope_Rock_Foundation/unified_house/evaluation/runs/benchmark_v3/split_42/neural/Tuned_MLP_settlement/seed_1",
+      "tasks": [
+        "settlement"
+      ],
+      "spec": {
+        "shared": false,
+        "physics": false,
+        "gate": false,
+        "width": 16,
+        "dropout": 0.1,
+        "prior_weight": 0.25,
+        "lr": 0.003,
+        "weight_decay": 0.001
+      },
+      "seconds": 0.2037878330447711
+    },
+    {
+      "model": "Tuned_MLP_settlement",
+      "seed": 2,
+      "directory": "/Users/ben/Documents/Projects/ML_Concurrent_Prediction_Slope_Rock_Foundation/unified_house/evaluation/runs/benchmark_v3/split_42/neural/Tuned_MLP_settlement/seed_2",
+      "tasks": [
+        "settlement"
+      ],
+      "spec": {
+        "shared": false,
+        "physics": false,
+        "gate": false,
+        "width": 16,
+        "dropout": 0.1,
+        "prior_weight": 0.25,
+        "lr": 0.003,
+        "weight_decay": 0.001
+      },
+      "seconds": 0.22734762501204386
+    },
+    {
+      "model": "Tuned_MLP_settlement",
+      "seed": 3,
+      "directory": "/Users/ben/Documents/Projects/ML_Concurrent_Prediction_Slope_Rock_Foundation/unified_house/evaluation/runs/benchmark_v3/split_42/neural/Tuned_MLP_settlement/seed_3",
+      "tasks": [
+        "settlement"
+      ],
+      "spec": {
+        "shared": false,
+        "physics": false,
+        "gate": false,
+        "width": 16,
+        "dropout": 0.1,
+        "prior_weight": 0.25,
+        "lr": 0.003,
+        "weight_decay": 0.001
+      },
+      "seconds": 0.15927420801017433
+    },
+    {
+      "model": "Tuned_MLP_settlement",
+      "seed": 4,
+      "directory": "/Users/ben/Documents/Projects/ML_Concurrent_Prediction_Slope_Rock_Foundation/unified_house/evaluation/runs/benchmark_v3/split_42/neural/Tuned_MLP_settlement/seed_4",
+      "tasks": [
+        "settlement"
+      ],
+      "spec": {
+        "shared": false,
+        "physics": false,
+        "gate": false,
+        "width": 16,
+        "dropout": 0.1,
+        "prior_weight": 0.25,
+        "lr": 0.003,
+        "weight_decay": 0.001
+      },
+      "seconds": 0.17259974998887628
+    },
+    {
+      "model": "Tuned_MLP_settlement",
+      "seed": 5,
+      "directory": "/Users/ben/Documents/Projects/ML_Concurrent_Prediction_Slope_Rock_Foundation/unified_house/evaluation/runs/benchmark_v3/split_42/neural/Tuned_MLP_settlement/seed_5",
+      "tasks": [
+        "settlement"
+      ],
+      "spec": {
+        "shared": false,
+        "physics": false,
+        "gate": false,
+        "width": 16,
+        "dropout": 0.1,
+        "prior_weight": 0.25,
+        "lr": 0.003,
+        "weight_decay": 0.001
+      },
+      "seconds": 0.23349708400201052
+    },
+    {
+      "model": "Tuned_C_shared",
+      "seed": 1,
+      "directory": "/Users/ben/Documents/Projects/ML_Concurrent_Prediction_Slope_Rock_Foundation/unified_house/evaluation/runs/benchmark_v3/split_42/neural/Tuned_C_shared/seed_1",
+      "tasks": [
+        "slope",
+        "rock",
+        "settlement"
+      ],
+      "spec": {
+        "shared": true,
+        "physics": false,
+        "gate": false,
+        "width": 64,
+        "dropout": 0.0,
+        "prior_weight": 0.25,
+        "lr": 0.001,
+        "weight_decay": 0.0001
+      },
+      "seconds": 0.4417652090196498
+    },
+    {
+      "model": "Tuned_C_shared",
+      "seed": 2,
+      "directory": "/Users/ben/Documents/Projects/ML_Concurrent_Prediction_Slope_Rock_Foundation/unified_house/evaluation/runs/benchmark_v3/split_42/neural/Tuned_C_shared/seed_2",
+      "tasks": [
+        "slope",
+        "rock",
+        "settlement"
+      ],
+      "spec": {
+        "shared": true,
+        "physics": false,
+        "gate": false,
+        "width": 64,
+        "dropout": 0.0,
+        "prior_weight": 0.25,
+        "lr": 0.001,
+        "weight_decay": 0.0001
+      },
+      "seconds": 0.620656791026704
+    },
+    {
+      "model": "Tuned_C_shared",
+      "seed": 3,
+      "directory": "/Users/ben/Documents/Projects/ML_Concurrent_Prediction_Slope_Rock_Foundation/unified_house/evaluation/runs/benchmark_v3/split_42/neural/Tuned_C_shared/seed_3",
+      "tasks": [
+        "slope",
+        "rock",
+        "settlement"
+      ],
+      "spec": {
+        "shared": true,
+        "physics": false,
+        "gate": false,
+        "width": 64,
+        "dropout": 0.0,
+        "prior_weight": 0.25,
+        "lr": 0.001,
+        "weight_decay": 0.0001
+      },
+      "seconds": 0.499574167013634
+    },
+    {
+      "model": "Tuned_C_shared",
+      "seed": 4,
+      "directory": "/Users/ben/Documents/Projects/ML_Concurrent_Prediction_Slope_Rock_Foundation/unified_house/evaluation/runs/benchmark_v3/split_42/neural/Tuned_C_shared/seed_4",
+      "tasks": [
+        "slope",
+        "rock",
+        "settlement"
+      ],
+      "spec": {
+        "shared": true,
+        "physics": false,
+        "gate": false,
+        "width": 64,
+        "dropout": 0.0,
+        "prior_weight": 0.25,
+        "lr": 0.001,
+        "weight_decay": 0.0001
+      },
+      "seconds": 0.42885775002650917
+    },
+    {
+      "model": "Tuned_C_shared",
+      "seed": 5,
+      "directory": "/Users/ben/Documents/Projects/ML_Concurrent_Prediction_Slope_Rock_Foundation/unified_house/evaluation/runs/benchmark_v3/split_42/neural/Tuned_C_shared/seed_5",
+      "tasks": [
+        "slope",
+        "rock",
+        "settlement"
+      ],
+      "spec": {
+        "shared": true,
+        "physics": false,
+        "gate": false,
+        "width": 64,
+        "dropout": 0.0,
+        "prior_weight": 0.25,
+        "lr": 0.001,
+        "weight_decay": 0.0001
+      },
+      "seconds": 0.45487412496004254
+    },
+    {
+      "model": "Tuned_E_shared_prior_gate",
+      "seed": 1,
+      "directory": "/Users/ben/Documents/Projects/ML_Concurrent_Prediction_Slope_Rock_Foundation/unified_house/evaluation/runs/benchmark_v3/split_42/neural/Tuned_E_shared_prior_gate/seed_1",
+      "tasks": [
+        "slope",
+        "rock",
+        "settlement"
+      ],
+      "spec": {
+        "shared": true,
+        "physics": true,
+        "gate": true,
+        "width": 16,
+        "dropout": 0.1,
+        "prior_weight": 0.25,
+        "lr": 0.003,
+        "weight_decay": 0.001
+      },
+      "seconds": 0.8049133750027977
+    },
+    {
+      "model": "Tuned_E_shared_prior_gate",
+      "seed": 2,
+      "directory": "/Users/ben/Documents/Projects/ML_Concurrent_Prediction_Slope_Rock_Foundation/unified_house/evaluation/runs/benchmark_v3/split_42/neural/Tuned_E_shared_prior_gate/seed_2",
+      "tasks": [
+        "slope",
+        "rock",
+        "settlement"
+      ],
+      "spec": {
+        "shared": true,
+        "physics": true,
+        "gate": true,
+        "width": 16,
+        "dropout": 0.1,
+        "prior_weight": 0.25,
+        "lr": 0.003,
+        "weight_decay": 0.001
+      },
+      "seconds": 0.8325207090238109
+    },
+    {
+      "model": "Tuned_E_shared_prior_gate",
+      "seed": 3,
+      "directory": "/Users/ben/Documents/Projects/ML_Concurrent_Prediction_Slope_Rock_Foundation/unified_house/evaluation/runs/benchmark_v3/split_42/neural/Tuned_E_shared_prior_gate/seed_3",
+      "tasks": [
+        "slope",
+        "rock",
+        "settlement"
+      ],
+      "spec": {
+        "shared": true,
+        "physics": true,
+        "gate": true,
+        "width": 16,
+        "dropout": 0.1,
+        "prior_weight": 0.25,
+        "lr": 0.003,
+        "weight_decay": 0.001
+      },
+      "seconds": 0.783473374962341
+    },
+    {
+      "model": "Tuned_E_shared_prior_gate",
+      "seed": 4,
+      "directory": "/Users/ben/Documents/Projects/ML_Concurrent_Prediction_Slope_Rock_Foundation/unified_house/evaluation/runs/benchmark_v3/split_42/neural/Tuned_E_shared_prior_gate/seed_4",
+      "tasks": [
+        "slope",
+        "rock",
+        "settlement"
+      ],
+      "spec": {
+        "shared": true,
+        "physics": true,
+        "gate": true,
+        "width": 16,
+        "dropout": 0.1,
+        "prior_weight": 0.25,
+        "lr": 0.003,
+        "weight_decay": 0.001
+      },
+      "seconds": 0.8284695000038482
+    },
+    {
+      "model": "Tuned_E_shared_prior_gate",
+      "seed": 5,
+      "directory": "/Users/ben/Documents/Projects/ML_Concurrent_Prediction_Slope_Rock_Foundation/unified_house/evaluation/runs/benchmark_v3/split_42/neural/Tuned_E_shared_prior_gate/seed_5",
+      "tasks": [
+        "slope",
+        "rock",
+        "settlement"
+      ],
+      "spec": {
+        "shared": true,
+        "physics": true,
+        "gate": true,
+        "width": 16,
+        "dropout": 0.1,
+        "prior_weight": 0.25,
+        "lr": 0.003,
+        "weight_decay": 0.001
+      },
+      "seconds": 0.8183677920023911
+    },
+    {
+      "model": "Pair_slope_rock_C_shared",
+      "seed": 1,
+      "directory": "/Users/ben/Documents/Projects/ML_Concurrent_Prediction_Slope_Rock_Foundation/unified_house/evaluation/runs/benchmark_v3/split_42/neural/Pair_slope_rock_C_shared/seed_1",
+      "tasks": [
+        "slope",
+        "rock"
+      ],
+      "spec": {
+        "shared": true,
+        "physics": false,
+        "gate": false,
+        "width": 32,
+        "dropout": 0.0,
+        "prior_weight": 0.25,
+        "lr": 0.003,
+        "weight_decay": 0.0
+      },
+      "seconds": 0.22802099998807535
+    },
+    {
+      "model": "Pair_slope_rock_C_shared",
+      "seed": 2,
+      "directory": "/Users/ben/Documents/Projects/ML_Concurrent_Prediction_Slope_Rock_Foundation/unified_house/evaluation/runs/benchmark_v3/split_42/neural/Pair_slope_rock_C_shared/seed_2",
+      "tasks": [
+        "slope",
+        "rock"
+      ],
+      "spec": {
+        "shared": true,
+        "physics": false,
+        "gate": false,
+        "width": 32,
+        "dropout": 0.0,
+        "prior_weight": 0.25,
+        "lr": 0.003,
+        "weight_decay": 0.0
+      },
+      "seconds": 0.21434750000480562
+    },
+    {
+      "model": "Pair_slope_rock_C_shared",
+      "seed": 3,
+      "directory": "/Users/ben/Documents/Projects/ML_Concurrent_Prediction_Slope_Rock_Foundation/unified_house/evaluation/runs/benchmark_v3/split_42/neural/Pair_slope_rock_C_shared/seed_3",
+      "tasks": [
+        "slope",
+        "rock"
+      ],
+      "spec": {
+        "shared": true,
+        "physics": false,
+        "gate": false,
+        "width": 32,
+        "dropout": 0.0,
+        "prior_weight": 0.25,
+        "lr": 0.003,
+        "weight_decay": 0.0
+      },
+      "seconds": 0.19308237498626113
+    },
+    {
+      "model": "Pair_slope_rock_C_shared",
+      "seed": 4,
+      "directory": "/Users/ben/Documents/Projects/ML_Concurrent_Prediction_Slope_Rock_Foundation/unified_house/evaluation/runs/benchmark_v3/split_42/neural/Pair_slope_rock_C_shared/seed_4",
+      "tasks": [
+        "slope",
+        "rock"
+      ],
+      "spec": {
+        "shared": true,
+        "physics": false,
+        "gate": false,
+        "width": 32,
+        "dropout": 0.0,
+        "prior_weight": 0.25,
+        "lr": 0.003,
+        "weight_decay": 0.0
+      },
+      "seconds": 0.18408120796084404
+    },
+    {
+      "model": "Pair_slope_rock_C_shared",
+      "seed": 5,
+      "directory": "/Users/ben/Documents/Projects/ML_Concurrent_Prediction_Slope_Rock_Foundation/unified_house/evaluation/runs/benchmark_v3/split_42/neural/Pair_slope_rock_C_shared/seed_5",
+      "tasks": [
+        "slope",
+        "rock"
+      ],
+      "spec": {
+        "shared": true,
+        "physics": false,
+        "gate": false,
+        "width": 32,
+        "dropout": 0.0,
+        "prior_weight": 0.25,
+        "lr": 0.003,
+        "weight_decay": 0.0
+      },
+      "seconds": 0.1881593749858439
+    },
+    {
+      "model": "Pair_slope_rock_E_shared_prior_gate",
+      "seed": 1,
+      "directory": "/Users/ben/Documents/Projects/ML_Concurrent_Prediction_Slope_Rock_Foundation/unified_house/evaluation/runs/benchmark_v3/split_42/neural/Pair_slope_rock_E_shared_prior_gate/seed_1",
+      "tasks": [
+        "slope",
+        "rock"
+      ],
+      "spec": {
+        "shared": true,
+        "physics": true,
+        "gate": true,
+        "width": 32,
+        "dropout": 0.0,
+        "prior_weight": 0.25,
+        "lr": 0.003,
+        "weight_decay": 0.0
+      },
+      "seconds": 0.13693054200848565
+    },
+    {
+      "model": "Pair_slope_rock_E_shared_prior_gate",
+      "seed": 2,
+      "directory": "/Users/ben/Documents/Projects/ML_Concurrent_Prediction_Slope_Rock_Foundation/unified_house/evaluation/runs/benchmark_v3/split_42/neural/Pair_slope_rock_E_shared_prior_gate/seed_2",
+      "tasks": [
+        "slope",
+        "rock"
+      ],
+      "spec": {
+        "shared": true,
+        "physics": true,
+        "gate": true,
+        "width": 32,
+        "dropout": 0.0,
+        "prior_weight": 0.25,
+        "lr": 0.003,
+        "weight_decay": 0.0
+      },
+      "seconds": 0.14266004104865715
+    },
+    {
+      "model": "Pair_slope_rock_E_shared_prior_gate",
+      "seed": 3,
+      "directory": "/Users/ben/Documents/Projects/ML_Concurrent_Prediction_Slope_Rock_Foundation/unified_house/evaluation/runs/benchmark_v3/split_42/neural/Pair_slope_rock_E_shared_prior_gate/seed_3",
+      "tasks": [
+        "slope",
+        "rock"
+      ],
+      "spec": {
+        "shared": true,
+        "physics": true,
+        "gate": true,
+        "width": 32,
+        "dropout": 0.0,
+        "prior_weight": 0.25,
+        "lr": 0.003,
+        "weight_decay": 0.0
+      },
+      "seconds": 0.1620314579922706
+    },
+    {
+      "model": "Pair_slope_rock_E_shared_prior_gate",
+      "seed": 4,
+      "directory": "/Users/ben/Documents/Projects/ML_Concurrent_Prediction_Slope_Rock_Foundation/unified_house/evaluation/runs/benchmark_v3/split_42/neural/Pair_slope_rock_E_shared_prior_gate/seed_4",
+      "tasks": [
+        "slope",
+        "rock"
+      ],
+      "spec": {
+        "shared": true,
+        "physics": true,
+        "gate": true,
+        "width": 32,
+        "dropout": 0.0,
+        "prior_weight": 0.25,
+        "lr": 0.003,
+        "weight_decay": 0.0
+      },
+      "seconds": 0.1422155830077827
+    },
+    {
+      "model": "Pair_slope_rock_E_shared_prior_gate",
+      "seed": 5,
+      "directory": "/Users/ben/Documents/Projects/ML_Concurrent_Prediction_Slope_Rock_Foundation/unified_house/evaluation/runs/benchmark_v3/split_42/neural/Pair_slope_rock_E_shared_prior_gate/seed_5",
+      "tasks": [
+        "slope",
+        "rock"
+      ],
+      "spec": {
+        "shared": true,
+        "physics": true,
+        "gate": true,
+        "width": 32,
+        "dropout": 0.0,
+        "prior_weight": 0.25,
+        "lr": 0.003,
+        "weight_decay": 0.0
+      },
+      "seconds": 0.23299991601379588
+    },
+    {
+      "model": "Pair_slope_settlement_C_shared",
+      "seed": 1,
+      "directory": "/Users/ben/Documents/Projects/ML_Concurrent_Prediction_Slope_Rock_Foundation/unified_house/evaluation/runs/benchmark_v3/split_42/neural/Pair_slope_settlement_C_shared/seed_1",
+      "tasks": [
+        "slope",
+        "settlement"
+      ],
+      "spec": {
+        "shared": true,
+        "physics": false,
+        "gate": false,
+        "width": 32,
+        "dropout": 0.0,
+        "prior_weight": 0.25,
+        "lr": 0.003,
+        "weight_decay": 0.0
+      },
+      "seconds": 0.17008354200515896
+    },
+    {
+      "model": "Pair_slope_settlement_C_shared",
+      "seed": 2,
+      "directory": "/Users/ben/Documents/Projects/ML_Concurrent_Prediction_Slope_Rock_Foundation/unified_house/evaluation/runs/benchmark_v3/split_42/neural/Pair_slope_settlement_C_shared/seed_2",
+      "tasks": [
+        "slope",
+        "settlement"
+      ],
+      "spec": {
+        "shared": true,
+        "physics": false,
+        "gate": false,
+        "width": 32,
+        "dropout": 0.0,
+        "prior_weight": 0.25,
+        "lr": 0.003,
+        "weight_decay": 0.0
+      },
+      "seconds": 0.1823298329836689
+    },
+    {
+      "model": "Pair_slope_settlement_C_shared",
+      "seed": 3,
+      "directory": "/Users/ben/Documents/Projects/ML_Concurrent_Prediction_Slope_Rock_Foundation/unified_house/evaluation/runs/benchmark_v3/split_42/neural/Pair_slope_settlement_C_shared/seed_3",
+      "tasks": [
+        "slope",
+        "settlement"
+      ],
+      "spec": {
+        "shared": true,
+        "physics": false,
+        "gate": false,
+        "width": 32,
+        "dropout": 0.0,
+        "prior_weight": 0.25,
+        "lr": 0.003,
+        "weight_decay": 0.0
+      },
+      "seconds": 0.19148258300265297
+    },
+    {
+      "model": "Pair_slope_settlement_C_shared",
+      "seed": 4,
+      "directory": "/Users/ben/Documents/Projects/ML_Concurrent_Prediction_Slope_Rock_Foundation/unified_house/evaluation/runs/benchmark_v3/split_42/neural/Pair_slope_settlement_C_shared/seed_4",
+      "tasks": [
+        "slope",
+        "settlement"
+      ],
+      "spec": {
+        "shared": true,
+        "physics": false,
+        "gate": false,
+        "width": 32,
+        "dropout": 0.0,
+        "prior_weight": 0.25,
+        "lr": 0.003,
+        "weight_decay": 0.0
+      },
+      "seconds": 0.16470724996179342
+    },
+    {
+      "model": "Pair_slope_settlement_C_shared",
+      "seed": 5,
+      "directory": "/Users/ben/Documents/Projects/ML_Concurrent_Prediction_Slope_Rock_Foundation/unified_house/evaluation/runs/benchmark_v3/split_42/neural/Pair_slope_settlement_C_shared/seed_5",
+      "tasks": [
+        "slope",
+        "settlement"
+      ],
+      "spec": {
+        "shared": true,
+        "physics": false,
+        "gate": false,
+        "width": 32,
+        "dropout": 0.0,
+        "prior_weight": 0.25,
+        "lr": 0.003,
+        "weight_decay": 0.0
+      },
+      "seconds": 0.1541920829913579
+    },
+    {
+      "model": "Pair_slope_settlement_E_shared_prior_gate",
+      "seed": 1,
+      "directory": "/Users/ben/Documents/Projects/ML_Concurrent_Prediction_Slope_Rock_Foundation/unified_house/evaluation/runs/benchmark_v3/split_42/neural/Pair_slope_settlement_E_shared_prior_gate/seed_1",
+      "tasks": [
+        "slope",
+        "settlement"
+      ],
+      "spec": {
+        "shared": true,
+        "physics": true,
+        "gate": true,
+        "width": 32,
+        "dropout": 0.0,
+        "prior_weight": 0.25,
+        "lr": 0.003,
+        "weight_decay": 0.0
+      },
+      "seconds": 0.21593058301368728
+    },
+    {
+      "model": "Pair_slope_settlement_E_shared_prior_gate",
+      "seed": 2,
+      "directory": "/Users/ben/Documents/Projects/ML_Concurrent_Prediction_Slope_Rock_Foundation/unified_house/evaluation/runs/benchmark_v3/split_42/neural/Pair_slope_settlement_E_shared_prior_gate/seed_2",
+      "tasks": [
+        "slope",
+        "settlement"
+      ],
+      "spec": {
+        "shared": true,
+        "physics": true,
+        "gate": true,
+        "width": 32,
+        "dropout": 0.0,
+        "prior_weight": 0.25,
+        "lr": 0.003,
+        "weight_decay": 0.0
+      },
+      "seconds": 0.22573354199994355
+    },
+    {
+      "model": "Pair_slope_settlement_E_shared_prior_gate",
+      "seed": 3,
+      "directory": "/Users/ben/Documents/Projects/ML_Concurrent_Prediction_Slope_Rock_Foundation/unified_house/evaluation/runs/benchmark_v3/split_42/neural/Pair_slope_settlement_E_shared_prior_gate/seed_3",
+      "tasks": [
+        "slope",
+        "settlement"
+      ],
+      "spec": {
+        "shared": true,
+        "physics": true,
+        "gate": true,
+        "width": 32,
+        "dropout": 0.0,
+        "prior_weight": 0.25,
+        "lr": 0.003,
+        "weight_decay": 0.0
+      },
+      "seconds": 0.27042491699103266
+    },
+    {
+      "model": "Pair_slope_settlement_E_shared_prior_gate",
+      "seed": 4,
+      "directory": "/Users/ben/Documents/Projects/ML_Concurrent_Prediction_Slope_Rock_Foundation/unified_house/evaluation/runs/benchmark_v3/split_42/neural/Pair_slope_settlement_E_shared_prior_gate/seed_4",
+      "tasks": [
+        "slope",
+        "settlement"
+      ],
+      "spec": {
+        "shared": true,
+        "physics": true,
+        "gate": true,
+        "width": 32,
+        "dropout": 0.0,
+        "prior_weight": 0.25,
+        "lr": 0.003,
+        "weight_decay": 0.0
+      },
+      "seconds": 0.26118758297525346
+    },
+    {
+      "model": "Pair_slope_settlement_E_shared_prior_gate",
+      "seed": 5,
+      "directory": "/Users/ben/Documents/Projects/ML_Concurrent_Prediction_Slope_Rock_Foundation/unified_house/evaluation/runs/benchmark_v3/split_42/neural/Pair_slope_settlement_E_shared_prior_gate/seed_5",
+      "tasks": [
+        "slope",
+        "settlement"
+      ],
+      "spec": {
+        "shared": true,
+        "physics": true,
+        "gate": true,
+        "width": 32,
+        "dropout": 0.0,
+        "prior_weight": 0.25,
+        "lr": 0.003,
+        "weight_decay": 0.0
+      },
+      "seconds": 0.20755512500181794
+    },
+    {
+      "model": "Pair_rock_settlement_C_shared",
+      "seed": 1,
+      "directory": "/Users/ben/Documents/Projects/ML_Concurrent_Prediction_Slope_Rock_Foundation/unified_house/evaluation/runs/benchmark_v3/split_42/neural/Pair_rock_settlement_C_shared/seed_1",
+      "tasks": [
+        "rock",
+        "settlement"
+      ],
+      "spec": {
+        "shared": true,
+        "physics": false,
+        "gate": false,
+        "width": 32,
+        "dropout": 0.0,
+        "prior_weight": 0.25,
+        "lr": 0.003,
+        "weight_decay": 0.0
+      },
+      "seconds": 0.20730562502285466
+    },
+    {
+      "model": "Pair_rock_settlement_C_shared",
+      "seed": 2,
+      "directory": "/Users/ben/Documents/Projects/ML_Concurrent_Prediction_Slope_Rock_Foundation/unified_house/evaluation/runs/benchmark_v3/split_42/neural/Pair_rock_settlement_C_shared/seed_2",
+      "tasks": [
+        "rock",
+        "settlement"
+      ],
+      "spec": {
+        "shared": true,
+        "physics": false,
+        "gate": false,
+        "width": 32,
+        "dropout": 0.0,
+        "prior_weight": 0.25,
+        "lr": 0.003,
+        "weight_decay": 0.0
+      },
+      "seconds": 0.1900530830025673
+    },
+    {
+      "model": "Pair_rock_settlement_C_shared",
+      "seed": 3,
+      "directory": "/Users/ben/Documents/Projects/ML_Concurrent_Prediction_Slope_Rock_Foundation/unified_house/evaluation/runs/benchmark_v3/split_42/neural/Pair_rock_settlement_C_shared/seed_3",
+      "tasks": [
+        "rock",
+        "settlement"
+      ],
+      "spec": {
+        "shared": true,
+        "physics": false,
+        "gate": false,
+        "width": 32,
+        "dropout": 0.0,
+        "prior_weight": 0.25,
+        "lr": 0.003,
+        "weight_decay": 0.0
+      },
+      "seconds": 0.18831333401612937
+    },
+    {
+      "model": "Pair_rock_settlement_C_shared",
+      "seed": 4,
+      "directory": "/Users/ben/Documents/Projects/ML_Concurrent_Prediction_Slope_Rock_Foundation/unified_house/evaluation/runs/benchmark_v3/split_42/neural/Pair_rock_settlement_C_shared/seed_4",
+      "tasks": [
+        "rock",
+        "settlement"
+      ],
+      "spec": {
+        "shared": true,
+        "physics": false,
+        "gate": false,
+        "width": 32,
+        "dropout": 0.0,
+        "prior_weight": 0.25,
+        "lr": 0.003,
+        "weight_decay": 0.0
+      },
+      "seconds": 0.352294291020371
+    },
+    {
+      "model": "Pair_rock_settlement_C_shared",
+      "seed": 5,
+      "directory": "/Users/ben/Documents/Projects/ML_Concurrent_Prediction_Slope_Rock_Foundation/unified_house/evaluation/runs/benchmark_v3/split_42/neural/Pair_rock_settlement_C_shared/seed_5",
+      "tasks": [
+        "rock",
+        "settlement"
+      ],
+      "spec": {
+        "shared": true,
+        "physics": false,
+        "gate": false,
+        "width": 32,
+        "dropout": 0.0,
+        "prior_weight": 0.25,
+        "lr": 0.003,
+        "weight_decay": 0.0
+      },
+      "seconds": 0.2084885829826817
+    },
+    {
+      "model": "Pair_rock_settlement_E_shared_prior_gate",
+      "seed": 1,
+      "directory": "/Users/ben/Documents/Projects/ML_Concurrent_Prediction_Slope_Rock_Foundation/unified_house/evaluation/runs/benchmark_v3/split_42/neural/Pair_rock_settlement_E_shared_prior_gate/seed_1",
+      "tasks": [
+        "rock",
+        "settlement"
+      ],
+      "spec": {
+        "shared": true,
+        "physics": true,
+        "gate": true,
+        "width": 32,
+        "dropout": 0.0,
+        "prior_weight": 0.25,
+        "lr": 0.003,
+        "weight_decay": 0.0
+      },
+      "seconds": 0.5319338329718448
+    },
+    {
+      "model": "Pair_rock_settlement_E_shared_prior_gate",
+      "seed": 2,
+      "directory": "/Users/ben/Documents/Projects/ML_Concurrent_Prediction_Slope_Rock_Foundation/unified_house/evaluation/runs/benchmark_v3/split_42/neural/Pair_rock_settlement_E_shared_prior_gate/seed_2",
+      "tasks": [
+        "rock",
+        "settlement"
+      ],
+      "spec": {
+        "shared": true,
+        "physics": true,
+        "gate": true,
+        "width": 32,
+        "dropout": 0.0,
+        "prior_weight": 0.25,
+        "lr": 0.003,
+        "weight_decay": 0.0
+      },
+      "seconds": 0.18493462505284697
+    },
+    {
+      "model": "Pair_rock_settlement_E_shared_prior_gate",
+      "seed": 3,
+      "directory": "/Users/ben/Documents/Projects/ML_Concurrent_Prediction_Slope_Rock_Foundation/unified_house/evaluation/runs/benchmark_v3/split_42/neural/Pair_rock_settlement_E_shared_prior_gate/seed_3",
+      "tasks": [
+        "rock",
+        "settlement"
+      ],
+      "spec": {
+        "shared": true,
+        "physics": true,
+        "gate": true,
+        "width": 32,
+        "dropout": 0.0,
+        "prior_weight": 0.25,
+        "lr": 0.003,
+        "weight_decay": 0.0
+      },
+      "seconds": 0.30688895797356963
+    },
+    {
+      "model": "Pair_rock_settlement_E_shared_prior_gate",
+      "seed": 4,
+      "directory": "/Users/ben/Documents/Projects/ML_Concurrent_Prediction_Slope_Rock_Foundation/unified_house/evaluation/runs/benchmark_v3/split_42/neural/Pair_rock_settlement_E_shared_prior_gate/seed_4",
+      "tasks": [
+        "rock",
+        "settlement"
+      ],
+      "spec": {
+        "shared": true,
+        "physics": true,
+        "gate": true,
+        "width": 32,
+        "dropout": 0.0,
+        "prior_weight": 0.25,
+        "lr": 0.003,
+        "weight_decay": 0.0
+      },
+      "seconds": 0.4262604159885086
+    },
+    {
+      "model": "Pair_rock_settlement_E_shared_prior_gate",
+      "seed": 5,
+      "directory": "/Users/ben/Documents/Projects/ML_Concurrent_Prediction_Slope_Rock_Foundation/unified_house/evaluation/runs/benchmark_v3/split_42/neural/Pair_rock_settlement_E_shared_prior_gate/seed_5",
+      "tasks": [
+        "rock",
+        "settlement"
+      ],
+      "spec": {
+        "shared": true,
+        "physics": true,
+        "gate": true,
+        "width": 32,
+        "dropout": 0.0,
+        "prior_weight": 0.25,
+        "lr": 0.003,
+        "weight_decay": 0.0
+      },
+      "seconds": 0.2996091669774614
+    },
+    {
+      "model": "D_shared_weight_0.1",
+      "seed": 1,
+      "directory": "/Users/ben/Documents/Projects/ML_Concurrent_Prediction_Slope_Rock_Foundation/unified_house/evaluation/runs/benchmark_v3/split_42/neural/D_shared_weight_0.1/seed_1",
+      "tasks": [
+        "slope",
+        "rock",
+        "settlement"
+      ],
+      "spec": {
+        "shared": true,
+        "physics": true,
+        "gate": false,
+        "width": 32,
+        "dropout": 0.0,
+        "prior_weight": 0.1,
+        "lr": 0.003,
+        "weight_decay": 0.0
+      },
+      "seconds": 0.32710604200838134
+    },
+    {
+      "model": "D_shared_weight_0.1",
+      "seed": 2,
+      "directory": "/Users/ben/Documents/Projects/ML_Concurrent_Prediction_Slope_Rock_Foundation/unified_house/evaluation/runs/benchmark_v3/split_42/neural/D_shared_weight_0.1/seed_2",
+      "tasks": [
+        "slope",
+        "rock",
+        "settlement"
+      ],
+      "spec": {
+        "shared": true,
+        "physics": true,
+        "gate": false,
+        "width": 32,
+        "dropout": 0.0,
+        "prior_weight": 0.1,
+        "lr": 0.003,
+        "weight_decay": 0.0
+      },
+      "seconds": 0.3364174590096809
+    },
+    {
+      "model": "D_shared_weight_0.1",
+      "seed": 3,
+      "directory": "/Users/ben/Documents/Projects/ML_Concurrent_Prediction_Slope_Rock_Foundation/unified_house/evaluation/runs/benchmark_v3/split_42/neural/D_shared_weight_0.1/seed_3",
+      "tasks": [
+        "slope",
+        "rock",
+        "settlement"
+      ],
+      "spec": {
+        "shared": true,
+        "physics": true,
+        "gate": false,
+        "width": 32,
+        "dropout": 0.0,
+        "prior_weight": 0.1,
+        "lr": 0.003,
+        "weight_decay": 0.0
+      },
+      "seconds": 0.30398550000973046
+    },
+    {
+      "model": "D_shared_weight_0.1",
+      "seed": 4,
+      "directory": "/Users/ben/Documents/Projects/ML_Concurrent_Prediction_Slope_Rock_Foundation/unified_house/evaluation/runs/benchmark_v3/split_42/neural/D_shared_weight_0.1/seed_4",
+      "tasks": [
+        "slope",
+        "rock",
+        "settlement"
+      ],
+      "spec": {
+        "shared": true,
+        "physics": true,
+        "gate": false,
+        "width": 32,
+        "dropout": 0.0,
+        "prior_weight": 0.1,
+        "lr": 0.003,
+        "weight_decay": 0.0
+      },
+      "seconds": 0.32778925000457093
+    },
+    {
+      "model": "D_shared_weight_0.1",
+      "seed": 5,
+      "directory": "/Users/ben/Documents/Projects/ML_Concurrent_Prediction_Slope_Rock_Foundation/unified_house/evaluation/runs/benchmark_v3/split_42/neural/D_shared_weight_0.1/seed_5",
+      "tasks": [
+        "slope",
+        "rock",
+        "settlement"
+      ],
+      "spec": {
+        "shared": true,
+        "physics": true,
+        "gate": false,
+        "width": 32,
+        "dropout": 0.0,
+        "prior_weight": 0.1,
+        "lr": 0.003,
+        "weight_decay": 0.0
+      },
+      "seconds": 0.30204508401220664
+    },
+    {
+      "model": "D_shared_weight_0.5",
+      "seed": 1,
+      "directory": "/Users/ben/Documents/Projects/ML_Concurrent_Prediction_Slope_Rock_Foundation/unified_house/evaluation/runs/benchmark_v3/split_42/neural/D_shared_weight_0.5/seed_1",
+      "tasks": [
+        "slope",
+        "rock",
+        "settlement"
+      ],
+      "spec": {
+        "shared": true,
+        "physics": true,
+        "gate": false,
+        "width": 32,
+        "dropout": 0.0,
+        "prior_weight": 0.5,
+        "lr": 0.003,
+        "weight_decay": 0.0
+      },
+      "seconds": 0.45637966599315405
+    },
+    {
+      "model": "D_shared_weight_0.5",
+      "seed": 2,
+      "directory": "/Users/ben/Documents/Projects/ML_Concurrent_Prediction_Slope_Rock_Foundation/unified_house/evaluation/runs/benchmark_v3/split_42/neural/D_shared_weight_0.5/seed_2",
+      "tasks": [
+        "slope",
+        "rock",
+        "settlement"
+      ],
+      "spec": {
+        "shared": true,
+        "physics": true,
+        "gate": false,
+        "width": 32,
+        "dropout": 0.0,
+        "prior_weight": 0.5,
+        "lr": 0.003,
+        "weight_decay": 0.0
+      },
+      "seconds": 0.3490083340439014
+    },
+    {
+      "model": "D_shared_weight_0.5",
+      "seed": 3,
+      "directory": "/Users/ben/Documents/Projects/ML_Concurrent_Prediction_Slope_Rock_Foundation/unified_house/evaluation/runs/benchmark_v3/split_42/neural/D_shared_weight_0.5/seed_3",
+      "tasks": [
+        "slope",
+        "rock",
+        "settlement"
+      ],
+      "spec": {
+        "shared": true,
+        "physics": true,
+        "gate": false,
+        "width": 32,
+        "dropout": 0.0,
+        "prior_weight": 0.5,
+        "lr": 0.003,
+        "weight_decay": 0.0
+      },
+      "seconds": 0.2990496249985881
+    },
+    {
+      "model": "D_shared_weight_0.5",
+      "seed": 4,
+      "directory": "/Users/ben/Documents/Projects/ML_Concurrent_Prediction_Slope_Rock_Foundation/unified_house/evaluation/runs/benchmark_v3/split_42/neural/D_shared_weight_0.5/seed_4",
+      "tasks": [
+        "slope",
+        "rock",
+        "settlement"
+      ],
+      "spec": {
+        "shared": true,
+        "physics": true,
+        "gate": false,
+        "width": 32,
+        "dropout": 0.0,
+        "prior_weight": 0.5,
+        "lr": 0.003,
+        "weight_decay": 0.0
+      },
+      "seconds": 0.24695454095490277
+    },
+    {
+      "model": "D_shared_weight_0.5",
+      "seed": 5,
+      "directory": "/Users/ben/Documents/Projects/ML_Concurrent_Prediction_Slope_Rock_Foundation/unified_house/evaluation/runs/benchmark_v3/split_42/neural/D_shared_weight_0.5/seed_5",
+      "tasks": [
+        "slope",
+        "rock",
+        "settlement"
+      ],
+      "spec": {
+        "shared": true,
+        "physics": true,
+        "gate": false,
+        "width": 32,
+        "dropout": 0.0,
+        "prior_weight": 0.5,
+        "lr": 0.003,
+        "weight_decay": 0.0
+      },
+      "seconds": 0.22996933397371322
+    },
+    {
+      "model": "D_shared_weight_0.75",
+      "seed": 1,
+      "directory": "/Users/ben/Documents/Projects/ML_Concurrent_Prediction_Slope_Rock_Foundation/unified_house/evaluation/runs/benchmark_v3/split_42/neural/D_shared_weight_0.75/seed_1",
+      "tasks": [
+        "slope",
+        "rock",
+        "settlement"
+      ],
+      "spec": {
+        "shared": true,
+        "physics": true,
+        "gate": false,
+        "width": 32,
+        "dropout": 0.0,
+        "prior_weight": 0.75,
+        "lr": 0.003,
+        "weight_decay": 0.0
+      },
+      "seconds": 0.3172839589533396
+    },
+    {
+      "model": "D_shared_weight_0.75",
+      "seed": 2,
+      "directory": "/Users/ben/Documents/Projects/ML_Concurrent_Prediction_Slope_Rock_Foundation/unified_house/evaluation/runs/benchmark_v3/split_42/neural/D_shared_weight_0.75/seed_2",
+      "tasks": [
+        "slope",
+        "rock",
+        "settlement"
+      ],
+      "spec": {
+        "shared": true,
+        "physics": true,
+        "gate": false,
+        "width": 32,
+        "dropout": 0.0,
+        "prior_weight": 0.75,
+        "lr": 0.003,
+        "weight_decay": 0.0
+      },
+      "seconds": 0.1631839579786174
+    },
+    {
+      "model": "D_shared_weight_0.75",
+      "seed": 3,
+      "directory": "/Users/ben/Documents/Projects/ML_Concurrent_Prediction_Slope_Rock_Foundation/unified_house/evaluation/runs/benchmark_v3/split_42/neural/D_shared_weight_0.75/seed_3",
+      "tasks": [
+        "slope",
+        "rock",
+        "settlement"
+      ],
+      "spec": {
+        "shared": true,
+        "physics": true,
+        "gate": false,
+        "width": 32,
+        "dropout": 0.0,
+        "prior_weight": 0.75,
+        "lr": 0.003,
+        "weight_decay": 0.0
+      },
+      "seconds": 0.29660770803457126
+    },
+    {
+      "model": "D_shared_weight_0.75",
+      "seed": 4,
+      "directory": "/Users/ben/Documents/Projects/ML_Concurrent_Prediction_Slope_Rock_Foundation/unified_house/evaluation/runs/benchmark_v3/split_42/neural/D_shared_weight_0.75/seed_4",
+      "tasks": [
+        "slope",
+        "rock",
+        "settlement"
+      ],
+      "spec": {
+        "shared": true,
+        "physics": true,
+        "gate": false,
+        "width": 32,
+        "dropout": 0.0,
+        "prior_weight": 0.75,
+        "lr": 0.003,
+        "weight_decay": 0.0
+      },
+      "seconds": 0.30651608301559463
+    },
+    {
+      "model": "D_shared_weight_0.75",
+      "seed": 5,
+      "directory": "/Users/ben/Documents/Projects/ML_Concurrent_Prediction_Slope_Rock_Foundation/unified_house/evaluation/runs/benchmark_v3/split_42/neural/D_shared_weight_0.75/seed_5",
+      "tasks": [
+        "slope",
+        "rock",
+        "settlement"
+      ],
+      "spec": {
+        "shared": true,
+        "physics": true,
+        "gate": false,
+        "width": 32,
+        "dropout": 0.0,
+        "prior_weight": 0.75,
+        "lr": 0.003,
+        "weight_decay": 0.0
+      },
+      "seconds": 0.27386083296732977
+    }
+  ]
+}

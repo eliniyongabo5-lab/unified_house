@@ -1,0 +1,65 @@
+{
+  "config": "A_independent",
+  "seed": 1,
+  "tasks": {
+    "slope": {
+      "n_test": 89,
+      "metrics": {
+        "accuracy": 0.651685393258427,
+        "balanced_accuracy": 0.6122291021671826,
+        "f1": 0.743801652892562,
+        "roc_auc": 0.7254901960784315
+      },
+      "mean_gate_weight_valid": 0.0,
+      "diagnostics": {
+        "cohesion_kPa": {
+          "n": 71,
+          "violations": 35,
+          "rate": 0.49295774647887325
+        },
+        "friction_angle_deg": {
+          "n": 71,
+          "violations": 21,
+          "rate": 0.29577464788732394
+        }
+      }
+    },
+    "rock": {
+      "n_test": 608,
+      "metrics": {
+        "mae": 41.10521487970101,
+        "rmse": 57.83011627739314,
+        "r2": 0.3576371466124094
+      },
+      "mean_gate_weight_valid": 0.0,
+      "diagnostics": {
+        "Is50_MPa": {
+          "n": 267,
+          "violations": 6,
+          "rate": 0.02247191011235955
+        }
+      }
+    },
+    "settlement": {
+      "n_test": 75,
+      "metrics": {
+        "mae": 1.1570009785970052,
+        "rmse": 1.5860273936866762,
+        "r2": 0.9763892845546004
+      },
+      "mean_gate_weight_valid": 0.0,
+      "diagnostics": {
+        "Applied Load q (kPa)": {
+          "n": 75,
+          "violations": 1,
+          "rate": 0.013333333333333334
+        },
+        "Elastic Modulus E (MPa)": {
+          "n": 75,
+          "violations": 0,
+          "rate": 0.0
+        }
+      }
+    }
+  }
+}

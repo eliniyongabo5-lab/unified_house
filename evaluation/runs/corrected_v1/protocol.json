@@ -1,0 +1,56 @@
+{
+  "configs": {
+    "A_independent": [
+      false,
+      false,
+      false
+    ],
+    "B_independent_prior": [
+      false,
+      true,
+      false
+    ],
+    "C_shared": [
+      true,
+      false,
+      false
+    ],
+    "D_shared_prior": [
+      true,
+      true,
+      false
+    ],
+    "E_shared_prior_gate": [
+      true,
+      true,
+      true
+    ]
+  },
+  "seeds": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "max_epochs": 400,
+  "patience": 40,
+  "min_delta": 0.0001,
+  "learning_rate": 0.003,
+  "fixed_prior_weight": 0.25,
+  "optimizer": "Adam",
+  "training": "full-batch, equal mean of three task losses, aggregate-validation checkpoint",
+  "architecture": "task encoder 2x32 ReLU; shared or separate 32 ReLU trunk; task head 16 ReLU; optional learned gate",
+  "software": {
+    "python": "3.12.14",
+    "torch": "2.14.0",
+    "numpy": "2.5.3",
+    "sklearn": "1.9.1"
+  },
+  "device": "cpu",
+  "split_seed": 42,
+  "code_sha256": {
+    "revised_experiments.py": "31fc8fa01ebfe3eaea90a2253ef07b4e0b8f07e7658e5e725f30ba4451a38e4c",
+    "revised_data.py": "b5b3a9a97ee79a76e0c7f904ebd92851189e00a832c4dedfd64b60259be65478"
+  }
+}

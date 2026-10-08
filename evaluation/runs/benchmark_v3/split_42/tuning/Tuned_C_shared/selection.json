@@ -1,0 +1,131 @@
+{
+  "candidates": [
+    {
+      "candidate": 0,
+      "spec": {
+        "shared": true,
+        "physics": false,
+        "gate": false,
+        "width": 16,
+        "dropout": 0.0,
+        "prior_weight": 0.25,
+        "lr": 0.001,
+        "weight_decay": 0.0001
+      },
+      "values": [
+        0.30910248899211484,
+        0.25423994443068904
+      ],
+      "mean_selection_loss": 0.28167121671140194
+    },
+    {
+      "candidate": 1,
+      "spec": {
+        "shared": true,
+        "physics": false,
+        "gate": false,
+        "width": 16,
+        "dropout": 0.1,
+        "prior_weight": 0.25,
+        "lr": 0.003,
+        "weight_decay": 0.001
+      },
+      "values": [
+        0.23704069449255863,
+        0.26097113608072203
+      ],
+      "mean_selection_loss": 0.24900591528664034
+    },
+    {
+      "candidate": 2,
+      "spec": {
+        "shared": true,
+        "physics": false,
+        "gate": false,
+        "width": 32,
+        "dropout": 0.0,
+        "prior_weight": 0.25,
+        "lr": 0.003,
+        "weight_decay": 0.0
+      },
+      "values": [
+        0.257633604730169,
+        0.25969136754671734
+      ],
+      "mean_selection_loss": 0.25866248613844317
+    },
+    {
+      "candidate": 3,
+      "spec": {
+        "shared": true,
+        "physics": false,
+        "gate": false,
+        "width": 32,
+        "dropout": 0.1,
+        "prior_weight": 0.25,
+        "lr": 0.001,
+        "weight_decay": 0.0001
+      },
+      "values": [
+        0.25343707390129566,
+        0.25680589241286117
+      ],
+      "mean_selection_loss": 0.2551214831570784
+    },
+    {
+      "candidate": 4,
+      "spec": {
+        "shared": true,
+        "physics": false,
+        "gate": false,
+        "width": 64,
+        "dropout": 0.0,
+        "prior_weight": 0.25,
+        "lr": 0.001,
+        "weight_decay": 0.0001
+      },
+      "values": [
+        0.25867513567209244,
+        0.22125608660280704
+      ],
+      "mean_selection_loss": 0.23996561113744974
+    },
+    {
+      "candidate": 5,
+      "spec": {
+        "shared": true,
+        "physics": false,
+        "gate": false,
+        "width": 64,
+        "dropout": 0.1,
+        "prior_weight": 0.25,
+        "lr": 0.003,
+        "weight_decay": 0.001
+      },
+      "values": [
+        0.24384211096912622,
+        0.2462135124951601
+      ],
+      "mean_selection_loss": 0.24502781173214316
+    }
+  ],
+  "selected": {
+    "candidate": 4,
+    "spec": {
+      "shared": true,
+      "physics": false,
+      "gate": false,
+      "width": 64,
+      "dropout": 0.0,
+      "prior_weight": 0.25,
+      "lr": 0.001,
+      "weight_decay": 0.0001
+    },
+    "values": [
+      0.25867513567209244,
+      0.22125608660280704
+    ],
+    "mean_selection_loss": 0.23996561113744974
+  },
+  "criterion": "equal average validation task loss"
+}

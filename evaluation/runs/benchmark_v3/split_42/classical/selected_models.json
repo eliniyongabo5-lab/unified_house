@@ -1,0 +1,386 @@
+[
+  {
+    "task": "slope",
+    "family": "dummy",
+    "params": {},
+    "val_score": 0.5,
+    "model_path": "/Users/ben/Documents/Projects/ML_Concurrent_Prediction_Slope_Rock_Foundation/unified_house/evaluation/runs/benchmark_v3/split_42/classical/slope/dummy.joblib",
+    "fit_seconds": 0.03991545794997364,
+    "model_params": {
+      "constant": null,
+      "random_state": null,
+      "strategy": "prior"
+    }
+  },
+  {
+    "task": "slope",
+    "family": "logistic_regression",
+    "params": {
+      "C": 0.01,
+      "class_weight": null
+    },
+    "val_score": 0.6668346774193548,
+    "model_path": "/Users/ben/Documents/Projects/ML_Concurrent_Prediction_Slope_Rock_Foundation/unified_house/evaluation/runs/benchmark_v3/split_42/classical/slope/logistic_regression.joblib",
+    "fit_seconds": 0.00285183300729841,
+    "model_params": {
+      "C": 0.01,
+      "class_weight": null,
+      "dual": false,
+      "fit_intercept": true,
+      "intercept_scaling": 1,
+      "l1_ratio": 0.0,
+      "max_iter": 3000,
+      "n_jobs": null,
+      "penalty": "deprecated",
+      "random_state": 42,
+      "solver": "lbfgs",
+      "tol": 0.0001,
+      "verbose": 0,
+      "warm_start": false
+    }
+  },
+  {
+    "task": "slope",
+    "family": "rbf_svc",
+    "params": {
+      "C": 10.0,
+      "gamma": 1.0,
+      "class_weight": "balanced"
+    },
+    "val_score": 0.8256048387096775,
+    "model_path": "/Users/ben/Documents/Projects/ML_Concurrent_Prediction_Slope_Rock_Foundation/unified_house/evaluation/runs/benchmark_v3/split_42/classical/slope/rbf_svc.joblib",
+    "fit_seconds": 0.012953208002727479,
+    "model_params": {
+      "C": 10.0,
+      "break_ties": false,
+      "cache_size": 200,
+      "class_weight": "balanced",
+      "coef0": 0.0,
+      "decision_function_shape": "ovr",
+      "degree": 3,
+      "gamma": 1.0,
+      "kernel": "rbf",
+      "max_iter": -1,
+      "probability": true,
+      "random_state": 42,
+      "shrinking": true,
+      "tol": 0.001,
+      "verbose": false
+    }
+  },
+  {
+    "task": "slope",
+    "family": "random_forest",
+    "params": {
+      "n_estimators": 200,
+      "max_depth": null,
+      "min_samples_leaf": 1,
+      "class_weight": "balanced"
+    },
+    "val_score": 0.889616935483871,
+    "model_path": "/Users/ben/Documents/Projects/ML_Concurrent_Prediction_Slope_Rock_Foundation/unified_house/evaluation/runs/benchmark_v3/split_42/classical/slope/random_forest.joblib",
+    "fit_seconds": 0.15988537500379607,
+    "model_params": {
+      "bootstrap": true,
+      "ccp_alpha": 0.0,
+      "class_weight": "balanced",
+      "criterion": "gini",
+      "max_depth": null,
+      "max_features": "sqrt",
+      "max_leaf_nodes": null,
+      "max_samples": null,
+      "min_impurity_decrease": 0.0,
+      "min_samples_leaf": 1,
+      "min_samples_split": 2,
+      "min_weight_fraction_leaf": 0.0,
+      "monotonic_cst": null,
+      "n_estimators": 200,
+      "n_jobs": 2,
+      "oob_score": false,
+      "random_state": 42,
+      "verbose": 0,
+      "warm_start": false
+    }
+  },
+  {
+    "task": "slope",
+    "family": "hist_gradient_boosting",
+    "params": {
+      "learning_rate": 0.1,
+      "max_leaf_nodes": 15,
+      "l2_regularization": 1.0,
+      "max_iter": 200,
+      "early_stopping": false
+    },
+    "val_score": 0.889616935483871,
+    "model_path": "/Users/ben/Documents/Projects/ML_Concurrent_Prediction_Slope_Rock_Foundation/unified_house/evaluation/runs/benchmark_v3/split_42/classical/slope/hist_gradient_boosting.joblib",
+    "fit_seconds": 0.18412650004029274,
+    "model_params": {
+      "categorical_features": "from_dtype",
+      "class_weight": null,
+      "early_stopping": false,
+      "interaction_cst": null,
+      "l2_regularization": 1.0,
+      "learning_rate": 0.1,
+      "loss": "log_loss",
+      "max_bins": 255,
+      "max_depth": null,
+      "max_features": 1.0,
+      "max_iter": 200,
+      "max_leaf_nodes": 15,
+      "min_samples_leaf": 20,
+      "monotonic_cst": null,
+      "n_iter_no_change": 10,
+      "random_state": 42,
+      "scoring": "loss",
+      "tol": 1e-07,
+      "validation_fraction": 0.1,
+      "verbose": 0,
+      "warm_start": false
+    }
+  },
+  {
+    "task": "rock",
+    "family": "dummy",
+    "params": {},
+    "val_score": 57.711157660306604,
+    "model_path": "/Users/ben/Documents/Projects/ML_Concurrent_Prediction_Slope_Rock_Foundation/unified_house/evaluation/runs/benchmark_v3/split_42/classical/rock/dummy.joblib",
+    "fit_seconds": 0.0018400420085527003,
+    "model_params": {
+      "constant": null,
+      "quantile": null,
+      "strategy": "mean"
+    }
+  },
+  {
+    "task": "rock",
+    "family": "ridge",
+    "params": {
+      "alpha": 100.0
+    },
+    "val_score": 44.19348530830277,
+    "model_path": "/Users/ben/Documents/Projects/ML_Concurrent_Prediction_Slope_Rock_Foundation/unified_house/evaluation/runs/benchmark_v3/split_42/classical/rock/ridge.joblib",
+    "fit_seconds": 0.001771792012732476,
+    "model_params": {
+      "alpha": 100.0,
+      "copy_X": true,
+      "fit_intercept": true,
+      "max_iter": null,
+      "positive": false,
+      "random_state": null,
+      "solver": "auto",
+      "tol": 0.0001
+    }
+  },
+  {
+    "task": "rock",
+    "family": "rbf_svr",
+    "params": {
+      "C": 1.0,
+      "gamma": 0.1,
+      "epsilon": 0.01,
+      "target_transform": "StandardScaler"
+    },
+    "val_score": 43.382420073973314,
+    "model_path": "/Users/ben/Documents/Projects/ML_Concurrent_Prediction_Slope_Rock_Foundation/unified_house/evaluation/runs/benchmark_v3/split_42/classical/rock/rbf_svr.joblib",
+    "fit_seconds": 0.18237345799570903,
+    "model_params": {
+      "check_inverse": true,
+      "func": null,
+      "inverse_func": null,
+      "regressor": "SVR(epsilon=0.01, gamma=0.1)",
+      "transformer": "StandardScaler()"
+    }
+  },
+  {
+    "task": "rock",
+    "family": "random_forest",
+    "params": {
+      "n_estimators": 200,
+      "max_depth": 8,
+      "min_samples_leaf": 1
+    },
+    "val_score": 47.05756309784819,
+    "model_path": "/Users/ben/Documents/Projects/ML_Concurrent_Prediction_Slope_Rock_Foundation/unified_house/evaluation/runs/benchmark_v3/split_42/classical/rock/random_forest.joblib",
+    "fit_seconds": 0.2925932920188643,
+    "model_params": {
+      "bootstrap": true,
+      "ccp_alpha": 0.0,
+      "criterion": "squared_error",
+      "max_depth": 8,
+      "max_features": 1.0,
+      "max_leaf_nodes": null,
+      "max_samples": null,
+      "min_impurity_decrease": 0.0,
+      "min_samples_leaf": 1,
+      "min_samples_split": 2,
+      "min_weight_fraction_leaf": 0.0,
+      "monotonic_cst": null,
+      "n_estimators": 200,
+      "n_jobs": 2,
+      "oob_score": false,
+      "random_state": 42,
+      "verbose": 0,
+      "warm_start": false
+    }
+  },
+  {
+    "task": "rock",
+    "family": "hist_gradient_boosting",
+    "params": {
+      "learning_rate": 0.05,
+      "max_leaf_nodes": 15,
+      "l2_regularization": 1.0,
+      "max_iter": 200,
+      "early_stopping": false
+    },
+    "val_score": 45.875387248480955,
+    "model_path": "/Users/ben/Documents/Projects/ML_Concurrent_Prediction_Slope_Rock_Foundation/unified_house/evaluation/runs/benchmark_v3/split_42/classical/rock/hist_gradient_boosting.joblib",
+    "fit_seconds": 0.21798808401217684,
+    "model_params": {
+      "categorical_features": "from_dtype",
+      "early_stopping": false,
+      "interaction_cst": null,
+      "l2_regularization": 1.0,
+      "learning_rate": 0.05,
+      "loss": "squared_error",
+      "max_bins": 255,
+      "max_depth": null,
+      "max_features": 1.0,
+      "max_iter": 200,
+      "max_leaf_nodes": 15,
+      "min_samples_leaf": 20,
+      "monotonic_cst": null,
+      "n_iter_no_change": 10,
+      "quantile": null,
+      "random_state": 42,
+      "scoring": "loss",
+      "tol": 1e-07,
+      "validation_fraction": 0.1,
+      "verbose": 0,
+      "warm_start": false
+    }
+  },
+  {
+    "task": "settlement",
+    "family": "dummy",
+    "params": {},
+    "val_score": 10.872479145721535,
+    "model_path": "/Users/ben/Documents/Projects/ML_Concurrent_Prediction_Slope_Rock_Foundation/unified_house/evaluation/runs/benchmark_v3/split_42/classical/settlement/dummy.joblib",
+    "fit_seconds": 0.002153583976905793,
+    "model_params": {
+      "constant": null,
+      "quantile": null,
+      "strategy": "mean"
+    }
+  },
+  {
+    "task": "settlement",
+    "family": "ridge",
+    "params": {
+      "alpha": 0.1
+    },
+    "val_score": 5.3592085712998685,
+    "model_path": "/Users/ben/Documents/Projects/ML_Concurrent_Prediction_Slope_Rock_Foundation/unified_house/evaluation/runs/benchmark_v3/split_42/classical/settlement/ridge.joblib",
+    "fit_seconds": 0.0018364590359851718,
+    "model_params": {
+      "alpha": 0.1,
+      "copy_X": true,
+      "fit_intercept": true,
+      "max_iter": null,
+      "positive": false,
+      "random_state": null,
+      "solver": "auto",
+      "tol": 0.0001
+    }
+  },
+  {
+    "task": "settlement",
+    "family": "rbf_svr",
+    "params": {
+      "C": 10.0,
+      "gamma": 0.1,
+      "epsilon": 0.01,
+      "target_transform": "StandardScaler"
+    },
+    "val_score": 2.620673283125248,
+    "model_path": "/Users/ben/Documents/Projects/ML_Concurrent_Prediction_Slope_Rock_Foundation/unified_house/evaluation/runs/benchmark_v3/split_42/classical/settlement/rbf_svr.joblib",
+    "fit_seconds": 0.02571991697186604,
+    "model_params": {
+      "check_inverse": true,
+      "func": null,
+      "inverse_func": null,
+      "regressor": "SVR(C=10.0, epsilon=0.01, gamma=0.1)",
+      "transformer": "StandardScaler()"
+    }
+  },
+  {
+    "task": "settlement",
+    "family": "random_forest",
+    "params": {
+      "n_estimators": 200,
+      "max_depth": 8,
+      "min_samples_leaf": 3
+    },
+    "val_score": 3.259284484647884,
+    "model_path": "/Users/ben/Documents/Projects/ML_Concurrent_Prediction_Slope_Rock_Foundation/unified_house/evaluation/runs/benchmark_v3/split_42/classical/settlement/random_forest.joblib",
+    "fit_seconds": 0.11648195795714855,
+    "model_params": {
+      "bootstrap": true,
+      "ccp_alpha": 0.0,
+      "criterion": "squared_error",
+      "max_depth": 8,
+      "max_features": 1.0,
+      "max_leaf_nodes": null,
+      "max_samples": null,
+      "min_impurity_decrease": 0.0,
+      "min_samples_leaf": 3,
+      "min_samples_split": 2,
+      "min_weight_fraction_leaf": 0.0,
+      "monotonic_cst": null,
+      "n_estimators": 200,
+      "n_jobs": 2,
+      "oob_score": false,
+      "random_state": 42,
+      "verbose": 0,
+      "warm_start": false
+    }
+  },
+  {
+    "task": "settlement",
+    "family": "hist_gradient_boosting",
+    "params": {
+      "learning_rate": 0.1,
+      "max_leaf_nodes": 15,
+      "l2_regularization": 1.0,
+      "max_iter": 200,
+      "early_stopping": false
+    },
+    "val_score": 2.584643777698878,
+    "model_path": "/Users/ben/Documents/Projects/ML_Concurrent_Prediction_Slope_Rock_Foundation/unified_house/evaluation/runs/benchmark_v3/split_42/classical/settlement/hist_gradient_boosting.joblib",
+    "fit_seconds": 0.21811833401443437,
+    "model_params": {
+      "categorical_features": "from_dtype",
+      "early_stopping": false,
+      "interaction_cst": null,
+      "l2_regularization": 1.0,
+      "learning_rate": 0.1,
+      "loss": "squared_error",
+      "max_bins": 255,
+      "max_depth": null,
+      "max_features": 1.0,
+      "max_iter": 200,
+      "max_leaf_nodes": 15,
+      "min_samples_leaf": 20,
+      "monotonic_cst": null,
+      "n_iter_no_change": 10,
+      "quantile": null,
+      "random_state": 42,
+      "scoring": "loss",
+      "tol": 1e-07,
+      "validation_fraction": 0.1,
+      "verbose": 0,
+      "warm_start": false
+    }
+  }
+]

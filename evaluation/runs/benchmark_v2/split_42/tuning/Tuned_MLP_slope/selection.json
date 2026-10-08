@@ -1,0 +1,131 @@
+{
+  "candidates": [
+    {
+      "candidate": 0,
+      "spec": {
+        "shared": false,
+        "physics": false,
+        "gate": false,
+        "width": 16,
+        "dropout": 0.0,
+        "prior_weight": 0.25,
+        "lr": 0.001,
+        "weight_decay": 0.0001
+      },
+      "values": [
+        -0.8422379032258065,
+        -0.7152217741935484
+      ],
+      "mean_selection_loss": -0.7787298387096775
+    },
+    {
+      "candidate": 1,
+      "spec": {
+        "shared": false,
+        "physics": false,
+        "gate": false,
+        "width": 16,
+        "dropout": 0.1,
+        "prior_weight": 0.25,
+        "lr": 0.003,
+        "weight_decay": 0.001
+      },
+      "values": [
+        -0.7938508064516129,
+        -0.7001008064516129
+      ],
+      "mean_selection_loss": -0.7469758064516129
+    },
+    {
+      "candidate": 2,
+      "spec": {
+        "shared": false,
+        "physics": false,
+        "gate": false,
+        "width": 32,
+        "dropout": 0.0,
+        "prior_weight": 0.25,
+        "lr": 0.003,
+        "weight_decay": 0.0
+      },
+      "values": [
+        -0.810483870967742,
+        -0.8251008064516129
+      ],
+      "mean_selection_loss": -0.8177923387096775
+    },
+    {
+      "candidate": 3,
+      "spec": {
+        "shared": false,
+        "physics": false,
+        "gate": false,
+        "width": 32,
+        "dropout": 0.1,
+        "prior_weight": 0.25,
+        "lr": 0.001,
+        "weight_decay": 0.0001
+      },
+      "values": [
+        -0.8422379032258065,
+        -0.8578629032258065
+      ],
+      "mean_selection_loss": -0.8500504032258065
+    },
+    {
+      "candidate": 4,
+      "spec": {
+        "shared": false,
+        "physics": false,
+        "gate": false,
+        "width": 64,
+        "dropout": 0.0,
+        "prior_weight": 0.25,
+        "lr": 0.001,
+        "weight_decay": 0.0001
+      },
+      "values": [
+        -0.826108870967742,
+        -0.8099798387096775
+      ],
+      "mean_selection_loss": -0.8180443548387097
+    },
+    {
+      "candidate": 5,
+      "spec": {
+        "shared": false,
+        "physics": false,
+        "gate": false,
+        "width": 64,
+        "dropout": 0.1,
+        "prior_weight": 0.25,
+        "lr": 0.003,
+        "weight_decay": 0.001
+      },
+      "values": [
+        -0.872983870967742,
+        -0.8422379032258065
+      ],
+      "mean_selection_loss": -0.8576108870967742
+    }
+  ],
+  "selected": {
+    "candidate": 5,
+    "spec": {
+      "shared": false,
+      "physics": false,
+      "gate": false,
+      "width": 64,
+      "dropout": 0.1,
+      "prior_weight": 0.25,
+      "lr": 0.003,
+      "weight_decay": 0.001
+    },
+    "values": [
+      -0.872983870967742,
+      -0.8422379032258065
+    ],
+    "mean_selection_loss": -0.8576108870967742
+  },
+  "criterion": "negative balanced accuracy (slope) or RMSE (regression)"
+}

@@ -1,0 +1,7 @@
+{
+  "coefficient": 0.7995418842513836,
+  "intercept": 0.27754695840249805,
+  "fit_partition": "train",
+  "n_valid_train": 350,
+  "invalid_prior_fallback": 8.879457142857143
+}

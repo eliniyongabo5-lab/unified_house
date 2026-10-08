@@ -1,0 +1,131 @@
+{
+  "candidates": [
+    {
+      "candidate": 0,
+      "spec": {
+        "shared": false,
+        "physics": false,
+        "gate": false,
+        "width": 16,
+        "dropout": 0.0,
+        "prior_weight": 0.25,
+        "lr": 0.001,
+        "weight_decay": 0.0001
+      },
+      "values": [
+        40.07071047814611,
+        73.41269730623155
+      ],
+      "mean_selection_loss": 56.74170389218883
+    },
+    {
+      "candidate": 1,
+      "spec": {
+        "shared": false,
+        "physics": false,
+        "gate": false,
+        "width": 16,
+        "dropout": 0.1,
+        "prior_weight": 0.25,
+        "lr": 0.003,
+        "weight_decay": 0.001
+      },
+      "values": [
+        45.97340747365302,
+        45.27465351707428
+      ],
+      "mean_selection_loss": 45.62403049536365
+    },
+    {
+      "candidate": 2,
+      "spec": {
+        "shared": false,
+        "physics": false,
+        "gate": false,
+        "width": 32,
+        "dropout": 0.0,
+        "prior_weight": 0.25,
+        "lr": 0.003,
+        "weight_decay": 0.0
+      },
+      "values": [
+        40.487211788246505,
+        45.115690100531296
+      ],
+      "mean_selection_loss": 42.801450944388904
+    },
+    {
+      "candidate": 3,
+      "spec": {
+        "shared": false,
+        "physics": false,
+        "gate": false,
+        "width": 32,
+        "dropout": 0.1,
+        "prior_weight": 0.25,
+        "lr": 0.001,
+        "weight_decay": 0.0001
+      },
+      "values": [
+        43.6758144041522,
+        47.68438334183122
+      ],
+      "mean_selection_loss": 45.68009887299171
+    },
+    {
+      "candidate": 4,
+      "spec": {
+        "shared": false,
+        "physics": false,
+        "gate": false,
+        "width": 64,
+        "dropout": 0.0,
+        "prior_weight": 0.25,
+        "lr": 0.001,
+        "weight_decay": 0.0001
+      },
+      "values": [
+        42.930521118240506,
+        45.35757051198762
+      ],
+      "mean_selection_loss": 44.14404581511406
+    },
+    {
+      "candidate": 5,
+      "spec": {
+        "shared": false,
+        "physics": false,
+        "gate": false,
+        "width": 64,
+        "dropout": 0.1,
+        "prior_weight": 0.25,
+        "lr": 0.003,
+        "weight_decay": 0.001
+      },
+      "values": [
+        42.6324545574857,
+        44.526025038776275
+      ],
+      "mean_selection_loss": 43.579239798130985
+    }
+  ],
+  "selected": {
+    "candidate": 2,
+    "spec": {
+      "shared": false,
+      "physics": false,
+      "gate": false,
+      "width": 32,
+      "dropout": 0.0,
+      "prior_weight": 0.25,
+      "lr": 0.003,
+      "weight_decay": 0.0
+    },
+    "values": [
+      40.487211788246505,
+      45.115690100531296
+    ],
+    "mean_selection_loss": 42.801450944388904
+  },
+  "criterion": "negative balanced accuracy (slope) or RMSE (regression)"
+}

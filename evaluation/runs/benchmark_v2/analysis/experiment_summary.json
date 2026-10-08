@@ -1,0 +1,16 @@
+{
+  "final_neural_fits": 210,
+  "neural_tuning_fits": 180,
+  "classical_candidate_fits": 294,
+  "failed_classical_candidates": 0,
+  "evaluation_records": 1077,
+  "elapsed_seconds": 206.16663745901315,
+  "audit": {
+    "status": "pass",
+    "record_count": 1077,
+    "prediction_file_count": 1077,
+    "metric_recalculation_max_abs_error": 4.1053614507902125e-08,
+    "issues": [],
+    "groups_checked": 9
+  }
+}

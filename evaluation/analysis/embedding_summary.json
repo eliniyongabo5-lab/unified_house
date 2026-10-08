@@ -1,0 +1,62 @@
+{
+  "1": {
+    "n": {
+      "slope": 89,
+      "rock": 608,
+      "settlement": 75
+    },
+    "pca_variance_ratio": [
+      0.48395785689353943,
+      0.35473331809043884
+    ],
+    "task_silhouette_standardized_embedding": 0.47163549065589905
+  },
+  "2": {
+    "n": {
+      "slope": 89,
+      "rock": 608,
+      "settlement": 75
+    },
+    "pca_variance_ratio": [
+      0.39976081252098083,
+      0.27232909202575684
+    ],
+    "task_silhouette_standardized_embedding": 0.30635446310043335
+  },
+  "3": {
+    "n": {
+      "slope": 89,
+      "rock": 608,
+      "settlement": 75
+    },
+    "pca_variance_ratio": [
+      0.3566761314868927,
+      0.24165239930152893
+    ],
+    "task_silhouette_standardized_embedding": 0.2479102611541748
+  },
+  "4": {
+    "n": {
+      "slope": 89,
+      "rock": 608,
+      "settlement": 75
+    },
+    "pca_variance_ratio": [
+      0.38476845622062683,
+      0.2645002603530884
+    ],
+    "task_silhouette_standardized_embedding": 0.30870431661605835
+  },
+  "5": {
+    "n": {
+      "slope": 89,
+      "rock": 608,
+      "settlement": 75
+    },
+    "pca_variance_ratio": [
+      0.3853856325149536,
+      0.27506422996520996
+    ],
+    "task_silhouette_standardized_embedding": 0.31138861179351807
+  }
+}
